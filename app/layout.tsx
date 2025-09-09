@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
     };
-    handleResize(); // on mount
+    handleResize(); // run once on mount
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               gap: isMobile ? '1rem' : '0',
             }}
           >
-            {/* Left (name + nav links) */}
+            {/* Left: Name + Nav */}
             <div
               style={{
                 display: 'flex',
@@ -69,17 +69,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
             </div>
 
-            {/* Right (image) */}
+            {/* Right: Image */}
             <img
               src="/subject4.png"
               alt="Portrait of Wakaba Oto"
               style={{
                 width: isMobile ? '100px' : '100%',
                 height: isMobile ? 'auto' : '100%',
-                maxHeight: isMobile ? '140px' : 'none',
-                objectFit: 'cover',
+                maxHeight: isMobile ? '140px' : '400px',       // smaller height on desktop
+                objectFit: isMobile ? 'contain' : 'cover',     // prevent crop on mobile
                 borderRadius: '8px',
                 alignSelf: isMobile ? 'flex-start' : 'flex-end',
+                marginTop: isMobile ? '0.5rem' : '0',           // slight downward nudge on mobile
               }}
             />
           </div>
