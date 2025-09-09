@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
     };
-    handleResize(); // run on mount
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -21,8 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           style={{
             display: 'flex',
             flexDirection: isMobile ? 'column' : 'row',
-            maxWidth: '100%',
             width: '100%',
+            maxWidth: '1100px',
             margin: '2rem auto',
             padding: isMobile ? '1.5rem' : '2rem 3rem',
             gap: isMobile ? '2rem' : '4rem',
@@ -30,28 +30,33 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         >
           {/* Sidebar */}
-          <nav
+          <div
             style={{
-              fontFamily: 'Georgia, serif',
-              fontSize: isMobile ? '15px' : '16px',
               display: 'flex',
-              flexDirection: isMobile ? 'row' : 'column',
+              flexDirection: isMobile ? 'column' : 'column',
               alignItems: 'flex-start',
-              textAlign: 'left',
-              flexWrap: isMobile ? 'wrap' : 'nowrap',
-              gap: isMobile ? '1rem' : '0',
+              flex: isMobile ? 'none' : '0 0 280px', // fixed width on desktop
+              width: isMobile ? '100%' : '280px',
+              gap: '1rem',
             }}
           >
-            {/* Text Section */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+            {/* Name + Nav */}
+            <nav
+              style={{
+                fontFamily: 'Georgia, serif',
+                fontSize: isMobile ? '15px' : '16px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.4rem',
+              }}
+            >
               <h2
                 style={{
                   fontSize: isMobile ? '1.4rem' : '1.6rem',
                   fontWeight: 'bold',
                   lineHeight: 1.2,
-                  marginBottom: isMobile ? 0 : '1.2rem',
                   textTransform: 'uppercase',
-                  marginTop: 0,
+                  margin: 0,
                 }}
               >
                 WAKABA<br />OTO
@@ -61,21 +66,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/reported" style={{ textDecoration: 'underline' }}>Reported Work</a>
               <a href="/creative" style={{ textDecoration: 'underline' }}>Creative Work</a>
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
-            </div>
+            </nav>
 
-            {/* Image Section */}
+            {/* Image that fills remaining sidebar height */}
             <img
               src="/subject4.png"
               alt="Portrait of Wakaba Oto"
               style={{
-                marginTop: isMobile ? 0 : '1.5rem',
-                width: isMobile ? '80px' : '100px',
-                height: 'auto',
-                borderRadius: '8px',
+                width: '100%',
+                height: isMobile ? 'auto' : '100%',
                 objectFit: 'cover',
+                borderRadius: '8px',
+                flexGrow: 1,
               }}
             />
-          </nav>
+          </div>
 
           {/* Main Content */}
           <main
