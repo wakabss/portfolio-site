@@ -1,67 +1,76 @@
+'use client';
 import './globals.css';
+import { useEffect, useState } from 'react';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 700);
+    };
+    handleResize(); // Run on mount
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <html lang="en">
       <body>
         <div
           style={{
             display: 'flex',
-            maxWidth: '1000px',
-            margin: '4rem auto',
-            padding: '0 1.5rem',
-            gap: '3rem',
+            flexDirection: isMobile ? 'column' : 'row',
+            maxWidth: '100%',
+            width: '100%',
+            margin: '2rem auto',
+            padding: isMobile ? '1.5rem' : '2rem 3rem',
+            gap: isMobile ? '2rem' : '4rem',
+            boxSizing: 'border-box',
           }}
         >
-          {/* Left Sidebar */}
+          {/* Sidebar */}
           <nav
             style={{
-              flexBasis: '120px',
-              flexShrink: 0,
               fontFamily: 'Georgia, serif',
-              fontSize: '16px',
+              fontSize: isMobile ? '15px' : '16px',
               display: 'flex',
               flexDirection: 'column',
-              paddingTop: '0.5rem',
+              alignItems: isMobile ? 'center' : 'flex-start',
+              textAlign: isMobile ? 'center' : 'left',
             }}
           >
             {/* Name */}
-            <div style={{ marginBottom: '1.5rem' }}>
-              <h2
-                style={{
-                  fontSize: '1.6rem',
-                  fontWeight: 'bold',
-                  lineHeight: 1.2,
-                  margin: 0,
-                  textTransform: 'uppercase',
-                }}
-              >
-                WAKABA<br />OTO
-              </h2>
-            </div>
+            <h2
+              style={{
+                fontSize: isMobile ? '1.4rem' : '1.6rem',
+                fontWeight: 'bold',
+                lineHeight: 1.2,
+                marginBottom: '1.2rem',
+                textTransform: 'uppercase',
+              }}
+            >
+              WAKABA<br />OTO
+            </h2>
 
-            {/* Navigation Links */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <a href="/" style={{ textDecoration: 'underline' }}>
-                About
-              </a>
-              <a href="/reported" style={{ textDecoration: 'underline' }}>
-                Reported Work
-              </a>
-              <a href="/creative" style={{ textDecoration: 'underline' }}>
-                Creative Work
-              </a>
-              <a href="/contact" style={{ textDecoration: 'underline' }}>
-                Contact
-              </a>
+            {/* Links */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+              <a href="/" style={{ textDecoration: 'underline' }}>About</a>
+              <a href="/reported" style={{ textDecoration: 'underline' }}>Reported Work</a>
+              <a href="/creative" style={{ textDecoration: 'underline' }}>Creative Work</a>
+              <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
             </div>
           </nav>
 
-          {/* Right Content */}
+          {/* Main Content */}
           <main
             style={{
               flex: 1,
-              maxWidth: '720px',
+              width: '100%',
+              maxWidth: isMobile ? '100%' : '700px',
+              fontSize: '0.95rem',
+              lineHeight: 1.7,
+              margin: '0 auto',
             }}
           >
             {children}
@@ -71,4 +80,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
