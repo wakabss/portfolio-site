@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
     };
-    handleResize(); // run once on mount
+    handleResize(); // run on mount
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -35,31 +35,46 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               fontFamily: 'Georgia, serif',
               fontSize: isMobile ? '15px' : '16px',
               display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-start', // ← changed
-              textAlign: 'left',        // ← changed
+              flexDirection: isMobile ? 'row' : 'column',
+              alignItems: 'flex-start',
+              textAlign: 'left',
+              flexWrap: isMobile ? 'wrap' : 'nowrap',
+              gap: isMobile ? '1rem' : '0',
             }}
           >
-            {/* Name */}
-            <h2
-              style={{
-                fontSize: isMobile ? '1.4rem' : '1.6rem',
-                fontWeight: 'bold',
-                lineHeight: 1.2,
-                marginBottom: '1.2rem',
-                textTransform: 'uppercase',
-              }}
-            >
-              WAKABA<br />OTO
-            </h2>
-
-            {/* Nav Links */}
+            {/* Text Section */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+              <h2
+                style={{
+                  fontSize: isMobile ? '1.4rem' : '1.6rem',
+                  fontWeight: 'bold',
+                  lineHeight: 1.2,
+                  marginBottom: isMobile ? 0 : '1.2rem',
+                  textTransform: 'uppercase',
+                  marginTop: 0,
+                }}
+              >
+                WAKABA<br />OTO
+              </h2>
+
               <a href="/" style={{ textDecoration: 'underline' }}>About</a>
               <a href="/reported" style={{ textDecoration: 'underline' }}>Reported Work</a>
               <a href="/creative" style={{ textDecoration: 'underline' }}>Creative Work</a>
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
             </div>
+
+            {/* Image Section */}
+            <img
+              src="/subject4.png"
+              alt="Portrait of Wakaba Oto"
+              style={{
+                marginTop: isMobile ? 0 : '1.5rem',
+                width: isMobile ? '80px' : '100px',
+                height: 'auto',
+                borderRadius: '8px',
+                objectFit: 'cover',
+              }}
+            />
           </nav>
 
           {/* Main Content */}
