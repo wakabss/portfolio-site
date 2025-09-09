@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav style={{
             minWidth: '160px',
             fontFamily: 'Georgia, serif',
-            fontSize: '10px',
+            fontSize: '18px',
             display: 'flex',
             flexDirection: 'column',
             gap: '1rem',
