@@ -15,7 +15,7 @@ export default function AboutPage() {
           </p>
   
           <p>
-        In addition to reporting, I write essays, fiction, and the occasional love letter to strange places. My creative work appears in <em>Panorama: The Journal of Travel, Place, and Nature</em>. I also do freelance travel writing when I can, which is just a fancy way of saying I’ll go anywhere for a good story.
+        In addition to reporting, I write essays, fiction, and the occasional love letter to strange places. My creative work appears in <em>Panorama: The Journal of Travel, Place, and Nature</em>. I also do freelance travel writing when I can, which is just a fancy way of saying I’ll go anywhere if there's something happening.
           </p>
 
           <p>
