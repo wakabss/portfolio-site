@@ -76,11 +76,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               style={{
                 width: isMobile ? '100px' : '100%',
                 height: isMobile ? 'auto' : '100%',
-                maxHeight: isMobile ? '140px' : '400px',       // smaller height on desktop
-                objectFit: isMobile ? 'contain' : 'cover',     // prevent crop on mobile
+                maxHeight: isMobile ? '140px' : '440px',       // Desktop: slightly taller
+                objectFit: isMobile ? 'contain' : 'cover',     // Avoid head crop on mobile
                 borderRadius: '8px',
                 alignSelf: isMobile ? 'flex-start' : 'flex-end',
-                marginTop: isMobile ? '0.5rem' : '0',           // slight downward nudge on mobile
+                marginTop: '0.5rem',                           // Both desktop and mobile
               }}
             />
           </div>
