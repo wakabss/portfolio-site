@@ -20,26 +20,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div
           style={{
             display: 'flex',
-            flexDirection: 'column',
+            flexDirection: isMobile ? 'column' : 'row',
             maxWidth: '1100px',
             margin: '2rem auto',
-            padding: '2rem 1.5rem',
+            padding: isMobile ? '1.5rem' : '2rem 3rem',
+            gap: isMobile ? '2rem' : '4rem',
             boxSizing: 'border-box',
-            gap: '2rem',
           }}
         >
-          {/* Sidebar Block (Name + Nav + Image) */}
+          {/* Sidebar */}
           <div
             style={{
               display: 'flex',
               flexDirection: isMobile ? 'row' : 'column',
               justifyContent: isMobile ? 'space-between' : 'flex-start',
-              alignItems: isMobile ? 'flex-start' : 'stretch',
-              width: '100%',
-              gap: '1rem',
+              alignItems: 'flex-start',
+              width: isMobile ? '100%' : '220px',
+              flexShrink: 0,
+              gap: isMobile ? '1rem' : '0',
             }}
           >
-            {/* Name + Nav */}
+            {/* Left (name + nav links) */}
             <div
               style={{
                 display: 'flex',
@@ -47,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 fontFamily: 'Georgia, serif',
                 fontSize: isMobile ? '15px' : '16px',
                 gap: '0.4rem',
-                flex: isMobile ? '1 1 auto' : 'none',
+                flex: isMobile ? '1' : 'unset',
               }}
             >
               <h2
@@ -68,16 +69,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
             </div>
 
-            {/* Image */}
+            {/* Right (image) */}
             <img
               src="/subject4.png"
               alt="Portrait of Wakaba Oto"
               style={{
                 width: isMobile ? '100px' : '100%',
                 height: isMobile ? 'auto' : '100%',
-                maxHeight: isMobile ? '140px' : 'auto',
+                maxHeight: isMobile ? '140px' : 'none',
                 objectFit: 'cover',
                 borderRadius: '8px',
+                alignSelf: isMobile ? 'flex-start' : 'flex-end',
               }}
             />
           </div>
@@ -85,10 +87,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Main Content */}
           <main
             style={{
+              flex: 1,
               fontSize: '0.95rem',
               lineHeight: 1.7,
               width: '100%',
-              maxWidth: isMobile ? '100%' : '100%',
+              minWidth: 0,
             }}
           >
             {children}
