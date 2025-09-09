@@ -20,28 +20,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div
           style={{
             display: 'flex',
-            flexDirection: isMobile ? 'row' : 'row',
-            alignItems: 'flex-start',
+            flexDirection: 'column',
             maxWidth: '1100px',
             margin: '2rem auto',
-            padding: isMobile ? '1rem' : '2rem 3rem',
-            gap: isMobile ? '1rem' : '4rem',
+            padding: '2rem 1.5rem',
             boxSizing: 'border-box',
+            gap: '2rem',
           }}
         >
-          {/* Left Side: Name, Nav, and Image */}
+          {/* Sidebar Block (Name + Nav + Image) */}
           <div
             style={{
               display: 'flex',
               flexDirection: isMobile ? 'row' : 'column',
+              justifyContent: isMobile ? 'space-between' : 'flex-start',
               alignItems: isMobile ? 'flex-start' : 'stretch',
-              justifyContent: 'space-between',
+              width: '100%',
               gap: '1rem',
-              flexShrink: 0,
-              width: isMobile ? '100%' : '220px',
             }}
           >
-            {/* Text + Nav Links */}
+            {/* Name + Nav */}
             <div
               style={{
                 display: 'flex',
@@ -49,7 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 fontFamily: 'Georgia, serif',
                 fontSize: isMobile ? '15px' : '16px',
                 gap: '0.4rem',
-                flex: isMobile ? '1 1 auto' : 'unset',
+                flex: isMobile ? '1 1 auto' : 'none',
               }}
             >
               <h2
@@ -70,27 +68,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
             </div>
 
-            {/* Portrait Image */}
+            {/* Image */}
             <img
               src="/subject4.png"
               alt="Portrait of Wakaba Oto"
               style={{
                 width: isMobile ? '100px' : '100%',
                 height: isMobile ? 'auto' : '100%',
+                maxHeight: isMobile ? '140px' : 'auto',
                 objectFit: 'cover',
                 borderRadius: '8px',
-                alignSelf: isMobile ? 'flex-start' : 'flex-end',
               }}
             />
           </div>
 
-          {/* Right Side: Main Text */}
+          {/* Main Content */}
           <main
             style={{
-              flex: 1,
               fontSize: '0.95rem',
               lineHeight: 1.7,
-              minWidth: 0,
+              width: '100%',
+              maxWidth: isMobile ? '100%' : '100%',
             }}
           >
             {children}
