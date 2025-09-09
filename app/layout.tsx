@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
     };
-    handleResize(); // Run on mount
+    handleResize(); // run once on mount
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -36,8 +36,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               fontSize: isMobile ? '15px' : '16px',
               display: 'flex',
               flexDirection: 'column',
-              alignItems: isMobile ? 'center' : 'flex-start',
-              textAlign: isMobile ? 'center' : 'left',
+              alignItems: 'flex-start', // ← changed
+              textAlign: 'left',        // ← changed
             }}
           >
             {/* Name */}
@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               WAKABA<br />OTO
             </h2>
 
-            {/* Links */}
+            {/* Nav Links */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
               <a href="/" style={{ textDecoration: 'underline' }}>About</a>
               <a href="/reported" style={{ textDecoration: 'underline' }}>Reported Work</a>
