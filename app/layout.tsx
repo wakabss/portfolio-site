@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
     };
-    handleResize();
+    handleResize(); // on mount
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -20,34 +20,36 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div
           style={{
             display: 'flex',
-            flexDirection: isMobile ? 'column' : 'row',
-            width: '100%',
+            flexDirection: isMobile ? 'row' : 'row',
+            alignItems: 'flex-start',
             maxWidth: '1100px',
             margin: '2rem auto',
-            padding: isMobile ? '1.5rem' : '2rem 3rem',
-            gap: isMobile ? '2rem' : '4rem',
+            padding: isMobile ? '1rem' : '2rem 3rem',
+            gap: isMobile ? '1rem' : '4rem',
             boxSizing: 'border-box',
           }}
         >
-          {/* Sidebar */}
+          {/* Left Side: Name, Nav, and Image */}
           <div
             style={{
               display: 'flex',
-              flexDirection: isMobile ? 'column' : 'column',
-              alignItems: 'flex-start',
-              flex: isMobile ? 'none' : '0 0 280px', // fixed width on desktop
-              width: isMobile ? '100%' : '280px',
+              flexDirection: isMobile ? 'row' : 'column',
+              alignItems: isMobile ? 'flex-start' : 'stretch',
+              justifyContent: 'space-between',
               gap: '1rem',
+              flexShrink: 0,
+              width: isMobile ? '100%' : '220px',
             }}
           >
-            {/* Name + Nav */}
-            <nav
+            {/* Text + Nav Links */}
+            <div
               style={{
-                fontFamily: 'Georgia, serif',
-                fontSize: isMobile ? '15px' : '16px',
                 display: 'flex',
                 flexDirection: 'column',
+                fontFamily: 'Georgia, serif',
+                fontSize: isMobile ? '15px' : '16px',
                 gap: '0.4rem',
+                flex: isMobile ? '1 1 auto' : 'unset',
               }}
             >
               <h2
@@ -55,8 +57,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   fontSize: isMobile ? '1.4rem' : '1.6rem',
                   fontWeight: 'bold',
                   lineHeight: 1.2,
-                  textTransform: 'uppercase',
                   margin: 0,
+                  textTransform: 'uppercase',
                 }}
               >
                 WAKABA<br />OTO
@@ -66,31 +68,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/reported" style={{ textDecoration: 'underline' }}>Reported Work</a>
               <a href="/creative" style={{ textDecoration: 'underline' }}>Creative Work</a>
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
-            </nav>
+            </div>
 
-            {/* Image that fills remaining sidebar height */}
+            {/* Portrait Image */}
             <img
               src="/subject4.png"
               alt="Portrait of Wakaba Oto"
               style={{
-                width: '100%',
+                width: isMobile ? '100px' : '100%',
                 height: isMobile ? 'auto' : '100%',
                 objectFit: 'cover',
                 borderRadius: '8px',
-                flexGrow: 1,
+                alignSelf: isMobile ? 'flex-start' : 'flex-end',
               }}
             />
           </div>
 
-          {/* Main Content */}
+          {/* Right Side: Main Text */}
           <main
             style={{
               flex: 1,
-              width: '100%',
-              maxWidth: isMobile ? '100%' : '700px',
               fontSize: '0.95rem',
               lineHeight: 1.7,
-              margin: '0 auto',
+              minWidth: 0,
             }}
           >
             {children}
