@@ -12,8 +12,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gap: '3rem',
         }}>
           {/* Left Side Nav */}
+          <h2 style={{
+            fontFamily: 'Georgia, serif',
+            fontSize: '1.6rem',
+            fontWeight: 'bold',
+            marginBottom: '1.5rem',
+            }}>
+            WAKABA OTO
+          </h2>
           <nav style={{
-            minWidth: '160px',
+            flexBasis: '120px',
+            flexShrink: 0,
             fontFamily: 'Georgia, serif',
             fontSize: '18px',
             display: 'flex',
@@ -30,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Right Side Content */}
           <main style={{
             flex: 1,
-            maxWidth: '600px',
+      
           }}>
             {children}
           </main>
