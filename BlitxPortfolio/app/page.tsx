@@ -16,7 +16,7 @@ export default function AboutPage() {
       
       </p>
       <p>
-        I’m open to new and interesting projects.
+        I’m always open to new and interesting projects!
       </p>
       <p>
         <a href="mailto:wakaba.oto@engawa.global">wakaba.oto@engawa.global</a>
