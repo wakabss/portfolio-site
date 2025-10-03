@@ -57,7 +57,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   fontWeight: 'bold',
                   lineHeight: 1.2,
                   margin: 0,
-                  textTransform: 'uppercase',
                 }}
               >
                 wakaba<br />oto
