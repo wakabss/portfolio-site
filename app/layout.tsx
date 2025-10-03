@@ -64,8 +64,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </h2>
 
               <a href="/" style={{ textDecoration: 'underline' }}>About</a>
-              <a href="/reported" style={{ textDecoration: 'underline' }}>Reported Work</a>
-              <a href="/creative" style={{ textDecoration: 'underline' }}>Creative Work</a>
+              <a href="/reported" style={{ textDecoration: 'underline' }}>Reported work</a>
+              <a href="/creative" style={{ textDecoration: 'underline' }}>Creative work</a>
               <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
             </div>
 
