@@ -15,7 +15,7 @@ export default function AboutPage() {
           </p>
   
           <p>
-        I also do freelance travel writing when I can, which is just a fancy way of saying I’ll go anywhere. I’ve flown to Morocco to meet a stranger for a first date, gone undercover as a hostess in Tokyo’s red-light district, and completed a seven-day trek to Machu Picchu without any prior training — all in the name of a good story.
+        I also do freelance travel writing, which is just a fancy way of saying I’ll go anywhere. I’ve flown to Morocco to meet a stranger for a first date, gone undercover as a hostess in Tokyo’s red-light district, and completed a seven-day trek to Machu Picchu without any prior training — all in the name of a good story.
           </p>
 
           <p>
