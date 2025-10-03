@@ -22,12 +22,7 @@ export default function AboutPage() {
         Always open to collaborations, assignments, or adventures. Please feel free to reach out!
           </p>
 
-          <p>
-          <a href="mailto:wakaba.oto@engawa.global">wakaba.oto@engawa.global</a>
-          </p>
-
         </div>
-
 
       <hr style={{ margin: '4rem 0' }} />
     </>
