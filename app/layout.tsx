@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   textTransform: 'uppercase',
                 }}
               >
-                WAKABA<br />OTO
+                wakaba<br />oto
               </h2>
 
               <a href="/" style={{ textDecoration: 'underline' }}>about</a>
