@@ -28,6 +28,16 @@ export default function ReportedPage() {
               – Tokyo Weekender
             </a>
           </li>
+           <li>
+            <a
+              href="https://www.tokyoweekender.com/japan-life/news-and-opinion/inside-japans-most-exclusive-dating-app-tokyo-calendar-date/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Inside Japan’s Most Exclusive Dating App: Tokyo Calendar Date
+              – Tokyo Weekender
+            </a>
+          </li>
         </ul>
 
         <h2>Politics</h2>
