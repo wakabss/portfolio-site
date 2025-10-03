@@ -6,7 +6,7 @@ export default function ReportedPage() {
       <div style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>
         <p>Here’s a selection of my reported work:</p>
 
-        <h2>Interviews</h2>
+        <h2>Features</h2>
         <ul>
           <li>
             <a
