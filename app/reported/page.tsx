@@ -54,12 +54,12 @@ export default function ReportedPage() {
           </li>
           <li>
             <a
-              href="https://www.tokyoweekender.com/japan-life/news-and-opinion/inside-japans-most-exclusive-dating-app-tokyo-calendar-date/"
+              href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Inside Japan’s Most Exclusive Dating App: Tokyo Calendar Date
-              – Tokyo Weekender
+              Japan’s Far-Right ‘Jokes’ About Forced Hysterectomies as Trump’s Authoritarian Playbook Goes Global
+              – Ms. magazine
             </a>
           </li>
         </ul>
