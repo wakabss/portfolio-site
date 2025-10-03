@@ -63,10 +63,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 WAKABA<br />OTO
               </h2>
 
-              <a href="/" style={{ textDecoration: 'underline' }}>About</a>
-              <a href="/reported" style={{ textDecoration: 'underline' }}>Reported work</a>
-              <a href="/creative" style={{ textDecoration: 'underline' }}>Creative work</a>
-              <a href="/contact" style={{ textDecoration: 'underline' }}>Contact</a>
+              <a href="/" style={{ textDecoration: 'underline' }}>about</a>
+              <a href="/reported" style={{ textDecoration: 'underline' }}>reported work</a>
+              <a href="/creative" style={{ textDecoration: 'underline' }}>creative work</a>
+              <a href="/contact" style={{ textDecoration: 'underline' }}>contact</a>
             </div>
 
             {/* Right: Image */}
