@@ -30,7 +30,7 @@ export default function ReportedPage() {
           </li>
         </ul>
 
-        <h2>Op-Eds</h2>
+        <h2>Politics</h2>
         <ul>
           <li>
             <a
