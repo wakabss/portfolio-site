@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <>
-      <h1>About</h1>
+      <h1>about</h1>
       
         <div style={{ fontSize: '0.9rem', lineHeight: '1.6' }}>
 
