@@ -6,7 +6,7 @@ export default function ReportedPage() {
       <div style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>
         <p>Here’s a selection of my reported work:</p>
 
-        <h2>Features</h2>
+        <h2>features</h2>
         <ul>
           <li>
             <a
@@ -40,7 +40,7 @@ export default function ReportedPage() {
           </li>
         </ul>
 
-        <h2>Politics</h2>
+        <h2>politics</h2>
         <ul>
           <li>
             <a
@@ -64,7 +64,7 @@ export default function ReportedPage() {
           </li>
         </ul>
 
-        <h2>Travel</h2>
+        <h2>travel</h2>
         <ul>
           <li>
             <a
