@@ -1,7 +1,7 @@
 export default function ReportedPage() {
   return (
     <>
-      <h1>Reported Work</h1>
+      <h1>reported work</h1>
 
       <div style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>
         <p>Here’s a selection of my reported work:</p>
