@@ -7,9 +7,7 @@ export default function ContactPage() {
         <p>You can reach me for editorial, freelance, or collaboration inquiries at:</p>
 
         <p>
-          Email<a href="mailto:wakaba.oto@engawa.global">wakaba.oto@engawa.global</a>
-        </p>
-        <p>
+          Email: <a href="mailto:wakaba.oto@engawa.global">wakaba.oto@engawa.global</a>
           Instagram: <a href="https://www.instagram.com/wakabss/" target="_blank">@wakabss</a>
         </p>
       </div>
