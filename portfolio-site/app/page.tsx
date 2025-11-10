@@ -3,7 +3,7 @@ export default function AboutPage() {
     <>
       <h1>About</h1>
       <p>
-        I’m a writer and journalist based between Tokyo and New York City, with bylines in <em>Tokyo Weekender</em>, <em>The Japan Times</em>, <em>Matador Network</em>, <em>Ms.</em> magazine, and more.
+        I am m a writer and journalist based between Tokyo and New York City, with bylines in <em>Tokyo Weekender</em>, <em>The Japan Times</em>, <em>Matador Network</em>, <em>Ms.</em> magazine, and more.
       </p>
       <p>  
          Raised across three continents, I’ve flown to Morocco to meet a stranger for a first date, worked undercover as a hostess in Tokyo’s red-light district, and completed a seven-day trek to Machu Picchu without any prior training — all in the name of a good story.
