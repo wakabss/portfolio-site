@@ -1,8 +1,6 @@
-import React from 'react';
-
 export default function AboutPage() {
   return (
-    <div>
+    <>
       <h1 style={{ fontSize: '1.6rem', fontFamily: 'Times New Roman, serif', marginBottom: '1.5rem' }}>
         about
       </h1>
@@ -17,7 +15,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
+          I'm a writer and journalist based between Tokyo and New York City, with bylines in{' '}
           <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'cornflowerblue', fontWeight: 'bold' }}>
             <em>Tokyo Weekender</em>
           </a>,{' '}
@@ -59,7 +57,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          I also do freelance travel writing — which is just a fancy way of saying I’ll go anywhere. I’ve{' '}
+          I also do freelance travel writing — which is just a fancy way of saying I'll go anywhere. I’ve{' '}
           flown to Morocco to meet a stranger,
           gone undercover as a hostess in Tokyo’s red‑light district, and{' '}
           <a href="https://matadornetwork.com/read/salkantay-trek-peru/" style={{ textDecoration: 'underline', color: 'mediumseagreen' }}>completed a seven‑day trek to Machu Picchu</a> without any prior training — all in the name of a good story.
@@ -72,6 +70,6 @@ export default function AboutPage() {
           <a href="https://www.instagram.com/wakabss/" style={{ textDecoration: 'underline', color: 'deeppink', fontWeight: 'bold' }}>Instagram</a>!
         </p>
       </div>
-    </div>
+    </>
   );
 }
