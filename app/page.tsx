@@ -16,9 +16,9 @@ export default function AboutPage() {
       >
         <p>
           I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
-          <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'hotpink' }}>Tokyo Weekender</a>,{' '}
-          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'royalblue' }}>The Japan Times</a>,{' '}
-          <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'darkorange' }}>Matador Network</a>,{' '}
+          <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'blue' }}>Tokyo Weekender</a>,{' '}
+          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'green' }}>The Japan Times</a>,{' '}
+          <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'darkgreen' }}>Matador Network</a>,{' '}
           <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink' }}>Ms. Magazine</a>, and more.
         </p>
 
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
         <p>
           For <a href="https://msmagazine.com/" style={{ textDecoration: 'underline', color: 'deeppink' }}>Ms. Magazine</a>, 
-          I ran a column about global feminist movements and reported on issues like{' '}
+          I ran a <a href="https://msmagazine.com/tag/ms-global/" style={{ textDecoration: 'underline', color: 'deeppink' }}>column</a> column about global feminist movements and reported on issues like{' '}
           <a href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/" style={{ textDecoration: 'underline', color: 'darkgoldenrod' }}>nonconsensual photography</a>,{' '}
           <a href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/" style={{ textDecoration: 'underline', color: 'forestgreen' }}>satire weaponized into policy</a>, and{' '}
           <a href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/" style={{ textDecoration: 'underline', color: 'royalblue' }}>student visa revocations</a>.
@@ -45,21 +45,21 @@ export default function AboutPage() {
 
         <p>
           In addition to reporting, I write essays, fiction, and the occasional{' '}
-          <a href="YOUR_LINK" style={{ textDecoration: 'underline', color: 'darkviolet' }}>treatise‑on‑loss‑posing‑as‑memoir</a>.
+          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/?srsltid=AfmBOorq99IStQ8ZU5NU3AP_mfByQlXZfiREt5DBef017J3NGkH5zk5U" style={{ textDecoration: 'underline', color: 'yellow' }}>treatise‑on‑loss‑posing‑as‑memoir</a>.
         </p>
 
         <p>
           I also do freelance travel writing — which is just a fancy way of saying I’ll go anywhere. I’ve{' '}
           <a href="YOUR_LINK" style={{ textDecoration: 'underline', color: 'crimson' }}>flown to Morocco to meet a stranger</a> for a first date,{' '}
           <a href="YOUR_LINK" style={{ textDecoration: 'underline', color: 'mediumslateblue' }}>gone undercover as a hostess in Tokyo’s red‑light district</a>, and{' '}
-          <a href="YOUR_LINK" style={{ textDecoration: 'underline', color: 'teal' }}>completed a seven‑day trek to Machu Picchu</a> without any prior training — all in the name of a good story.
+          <a href="https://matadornetwork.com/read/salkantay-trek-peru/" style={{ textDecoration: 'underline', color: 'teal' }}>completed a seven‑day trek to Machu Picchu</a> without any prior training — all in the name of a good story.
         </p>
 
         <p>
           Feel free to reach out to me over{' '}
-          <a href="mailto:YOUR_EMAIL" style={{ textDecoration: 'underline', color: 'orange', fontWeight: 'bold' }}>email</a>{' '}
+          <a href="mailto:wakaba.oto@engawa.global" style={{ textDecoration: 'underline', color: 'orange', fontWeight: 'bold' }}>email</a>{' '}
           or on{' '}
-          <a href="YOUR_INSTAGRAM_LINK" style={{ textDecoration: 'underline', color: 'mediumorchid', fontWeight: 'bold' }}>Instagram</a>!
+          <a href="https://www.instagram.com/wakabss/" style={{ textDecoration: 'underline', color: 'mediumorchid', fontWeight: 'bold' }}>Instagram</a>!
         </p>
       </div>
 
