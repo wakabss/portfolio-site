@@ -45,11 +45,11 @@ export default function AboutPage() {
         </p>
 
         <p>
-          For <em>Ms.</em>magazine, 
+          For <em>Ms.</em> magazine, 
           I ran a <a href="https://msmagazine.com/tag/ms-global/" style={{ textDecoration: 'underline', color: 'deeppink' }}>column</a> about global feminist movements and reported on issues like{' '}
-          <a href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/" style={{ textDecoration: 'underline', color: 'pink' }}>nonconsensual photography</a>,{' '}
+          <a href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/" style={{ textDecoration: 'underline', color: 'darkpaleviolet' }}>nonconsensual photography</a>,{' '}
           <a href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/" style={{ textDecoration: 'underline', color: 'limegreen' }}>satire weaponized into policy</a>, and{' '}
-          <a href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/" style={{ textDecoration: 'underline', color: 'darkviolet' }}>student visa revocations</a>.
+          <a href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/" style={{ textDecoration: 'underline', color: 'teal' }}>student visa revocations</a>.
         </p>
 
         <p>
@@ -68,7 +68,7 @@ export default function AboutPage() {
           Feel free to reach out to me over{' '}
           <a href="mailto:wakaba.oto@engawa.global" style={{ textDecoration: 'underline', color: 'deepskyblue', fontWeight: 'bold' }}>email</a>{' '}
           or on{' '}
-          <a href="https://www.instagram.com/wakabss/" style={{ textDecoration: 'underline', color: 'palevioletred', fontWeight: 'bold' }}>Instagram</a>!
+          <a href="https://www.instagram.com/wakabss/" style={{ textDecoration: 'underline', color: 'deeppink', fontWeight: 'bold' }}>Instagram</a>!
         </p>
       </div>
 
