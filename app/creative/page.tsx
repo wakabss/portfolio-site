@@ -12,7 +12,7 @@ export default function CreativePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              “Egg Salad and Other Nudities” – Panorama: Journal of Travel, Place, and Nature
+              “Egg Salad and Other Nudities” (Panorama: Journal of Travel, Place, and Nature)
             </a>
           </li>
         </ul>
