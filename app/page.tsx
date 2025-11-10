@@ -15,12 +15,21 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
-          <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'deepskyblue' }}>Tokyo Weekender</a>,{' '}
-          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: '' }}>The Japan Times</a>,{' '}
-          <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'mediumseagreen' }}>Matador Network</a>,{' '}
-          <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink' }}>Ms. Magazine</a>, and more.
-        </p>
+  I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
+  <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'deepskyblue' }}>
+    <em>Tokyo Weekender</em>
+  </a>,{' '}
+  <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'black' }}>
+    <em>The Japan Times</em>
+  </a>,{' '}
+  <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'mediumseagreen' }}>
+    <em>Matador Network</em>
+  </a>,{' '}
+  <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink' }}>
+    <em>Ms. Magazine</em>
+  </a>, and more.
+</p>
+
 
         <p>
           My reporting focuses on power and the voices that slip beneath it, seeking stories that are both investigative and deeply human. 
