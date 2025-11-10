@@ -47,7 +47,7 @@ export default function AboutPage() {
         <p>
           For <em>Ms.</em> magazine, 
           I ran a <a href="https://msmagazine.com/tag/ms-global/" style={{ textDecoration: 'underline', color: 'deeppink' }}>column</a> about global feminist movements and reported on issues like{' '}
-          <a href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/" style={{ textDecoration: 'underline', color: 'darkpaleviolet' }}>nonconsensual photography</a>,{' '}
+          <a href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/" style={{ textDecoration: 'underline', color: 'palevioletred' }}>nonconsensual photography</a>,{' '}
           <a href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/" style={{ textDecoration: 'underline', color: 'limegreen' }}>satire weaponized into policy</a>, and{' '}
           <a href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/" style={{ textDecoration: 'underline', color: 'teal' }}>student visa revocations</a>.
         </p>
