@@ -16,8 +16,8 @@ export default function AboutPage() {
       >
         <p>
           I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
-          <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'blue' }}>Tokyo Weekender</a>,{' '}
-          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'green' }}>The Japan Times</a>,{' '}
+          <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'deepskyblue' }}>Tokyo Weekender</a>,{' '}
+          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'darkyellow' }}>The Japan Times</a>,{' '}
           <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'darkgreen' }}>Matador Network</a>,{' '}
           <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink' }}>Ms. Magazine</a>, and more.
         </p>
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
         <p>
           For <a href="https://msmagazine.com/" style={{ textDecoration: 'underline', color: 'deeppink' }}>Ms. Magazine</a>, 
-          I ran a <a href="https://msmagazine.com/tag/ms-global/" style={{ textDecoration: 'underline', color: 'deeppink' }}>column</a> column about global feminist movements and reported on issues like{' '}
+          I ran a <a href="https://msmagazine.com/tag/ms-global/" style={{ textDecoration: 'underline', color: 'deeppink' }}>column</a> about global feminist movements and reported on issues like{' '}
           <a href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/" style={{ textDecoration: 'underline', color: 'darkgoldenrod' }}>nonconsensual photography</a>,{' '}
           <a href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/" style={{ textDecoration: 'underline', color: 'forestgreen' }}>satire weaponized into policy</a>, and{' '}
           <a href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/" style={{ textDecoration: 'underline', color: 'royalblue' }}>student visa revocations</a>.
