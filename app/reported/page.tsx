@@ -1,135 +1,94 @@
 export default function ReportedPage() {
-  const sections = [
-    {
-      title: "features",
-      items: [
-        {
-          text: "20 Questions with Edanoshin Katsura: Rakugo and techno are both about rhythm and groove",
-          href: "https://www.japantimes.co.jp/community/2025/03/22/our-lives/edanoshin-katsura-z-rakugo/",
-          source: "The Japan Times",
-          color: "black",
-          italic: true,
-        },
-        {
-          text: "A Conversation With Tokyo Tattoo Artist Keisuke Hirata on Taboo, Acceptance and the In-Between",
-          href: "https://www.tokyoweekender.com/art_and_culture/arts/conversation-with-tokyo-tattoo-artist-keisuke-hirata/",
-          source: "Tokyo Weekender",
-          color: "deepskyblue",
-          italic: true,
-        },
-        {
-          text: "Inside Japan's Most Exclusive Dating App: Tokyo Calendar Date",
-          href: "https://www.tokyoweekender.com/japan-life/news-and-opinion/inside-japans-most-exclusive-dating-app-tokyo-calendar-date/",
-          source: "Tokyo Weekender",
-          color: "deepskyblue",
-          italic: true,
-        },
-      ],
-    },
-    {
-      title: "politics",
-      items: [
-        {
-          text: "Sanseito, Explained: The Alarming Rise of Japan's Far-Right Movement",
-          href: "https://www.tokyoweekender.com/japan-life/news-and-opinion/sanseito-explained-japans-far-right-movement/",
-          source: "Tokyo Weekender",
-          color: "deepskyblue",
-          italic: true,
-        },
-        {
-          text: "Japan's Far-Right Jokes About Forced Hysterectomies as Trump's Authoritarian Playbook Goes Global",
-          href: "https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/",
-          source: "Ms. magazine",
-          color: "deeppink",
-          italic: true,
-        },
-      ],
-    },
-    {
-      title: "travel",
-      items: [
-        {
-          text: "What Trekking to Machu Picchu Taught Me About Strength, Surrender, and the People Who Make It Possible",
-          href: "https://matadornetwork.com/read/salkantay-trek-peru/",
-          source: "Matador Network",
-          color: "mediumseagreen",
-          italic: true,
-        },
-        {
-          text: "Japan's Best Weekend Hikes (No Car Needed)",
-          href: "https://www.tokyoweekender.com/travel/japans-best-weekend-hikes-no-car-needed/",
-          source: "Tokyo Weekender",
-          color: "deepskyblue",
-          italic: true,
-        },
-      ],
-    },
-  ];
-
   return (
-    <div
-      style={{
-        fontFamily: "Times New Roman, serif",
-        backgroundColor: "white",
-        padding: "2rem",
-        maxWidth: "700px",
-        margin: "0 auto",
-      }}
-    >
-      <h1 style={{ fontSize: "2rem", marginBottom: "1.5rem" }}>reported work</h1>
+    <>
+      <h1>reported work</h1>
 
-      <p style={{ fontSize: "1rem", marginBottom: "2rem", lineHeight: 1.7 }}>
-        Here is a selection of my reported work:
-      </p>
+      <div style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>
+        <p>Here’s a selection of my reported work:</p>
 
-      {sections.map((section) => (
-        <div key={section.title} style={{ marginBottom: "2.5rem" }}>
-          <h2
-            style={{
-              borderBottom: "1px solid #ccc",
-              paddingBottom: "0.3rem",
-              marginBottom: "1rem",
-              fontSize: "1.25rem",
-              textTransform: "lowercase",
-            }}
-          >
-            {section.title}
-          </h2>
+        <h2>features</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.japantimes.co.jp/community/2025/03/22/our-lives/edanoshin-katsura-z-rakugo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              20 Questions with Edanoshin Katsura: ‘Rakugo and techno are both about rhythm and groove’
+              (The Japan Times)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tokyoweekender.com/art_and_culture/arts/conversation-with-tokyo-tattoo-artist-keisuke-hirata/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              A Conversation With Tokyo Tattoo Artist Keisuke Hirata on Taboo, Acceptance and the In-Between 
+              (Tokyo Weekender)
+            </a>
+          </li>
+           <li>
+            <a
+              href="https://www.tokyoweekender.com/japan-life/news-and-opinion/inside-japans-most-exclusive-dating-app-tokyo-calendar-date/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Inside Japan’s Most Exclusive Dating App: Tokyo Calendar Date
+              (Tokyo Weekender)
+            </a>
+          </li>
+        </ul>
 
-          <ul style={{ listStyle: "none", paddingLeft: 0 }}>
-            {section.items.map((item, index) => (
-              <li key={index} style={{ marginBottom: "1rem" }}>
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    textDecoration: "none",
-                    color: "#222",
-                    lineHeight: 1.6,
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.textDecoration = "underline";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.textDecoration = "none";
-                  }}
-                >
-                  {item.text}{" "}
-                  <span
-                    style={{
-                      color: item.color,
-                      fontStyle: item.italic ? "italic" : "normal",
-                    }}
-                  >
-                    ({item.source})
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
+        <h2>politics</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.tokyoweekender.com/japan-life/news-and-opinion/sanseito-explained-japans-far-right-movement/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sanseito, Explained: The Alarming Rise of Japan’s Far-Right Movement
+              (Tokyo Weekender)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Japan’s Far-Right ‘Jokes’ About Forced Hysterectomies as Trump’s Authoritarian Playbook Goes Global
+              (Ms. magazine)
+            </a>
+          </li>
+        </ul>
+
+        <h2>travel</h2>
+        <ul>
+          <li>
+            <a
+              href="https://matadornetwork.com/read/salkantay-trek-peru/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              What Trekking to Machu Picchu Taught Me About Strength, Surrender, and the People Who Make It Possible
+              (Matador Network)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tokyoweekender.com/travel/japans-best-weekend-hikes-no-car-needed/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Japan’s Best Weekend Hikes (No Car Needed)
+              (Tokyo Weekender)
+            </a>
+          </li>
+        </ul>
+      </div>
+    </>
   );
 }
+
