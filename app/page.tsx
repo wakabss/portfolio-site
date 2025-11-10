@@ -25,13 +25,13 @@ export default function AboutPage() {
         <p>
           My reporting focuses on power and the voices that slip beneath it, seeking stories that are both investigative and deeply human. 
           For Tokyo Weekender, I’ve written about{' '}
-          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/" style={{ textDecoration: 'underline', color: 'pink' }}>Japan’s sex‑work machinery</a>,{' '}
-          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/" style={{ textDecoration: 'underline', color: 'lawngreen' }}>nuisance YouTubers</a>,{' '}
+          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/" style={{ textDecoration: 'underline', color: 'palevioletred' }}>Japan’s sex‑work machinery</a>,{' '}
+          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/" style={{ textDecoration: 'underline', color: 'limegreen' }}>nuisance YouTubers</a>,{' '}
           <a href="https://www.tokyoweekender.com/art_and_culture/history/tokyos-lost-showa-era-nightlife-scene/" style={{ textDecoration: 'underline', color: 'darkviolet' }}>Showa‑era nightlife</a>,{' '}
           <a href="https://www.tokyoweekender.com/travel/japans-best-weekend-hikes-no-car-needed/" style={{ textDecoration: 'underline', color: 'teal' }}>hiking</a>,{' '}
           <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nihon-hidankyos-nobel-peace-prize-raises-questions-about-the-future-of-nuclear-warfare/" style={{ textDecoration: 'underline', color: 'darkred' }}>nuclear peace politics</a>,{' '}
-          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/barefoot-gen-the-unflinching-atomic-bomb-film-from-japans-perspective/" style={{ textDecoration: 'underline', color: 'coral' }}>manga and film</a>,{' '}
-          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/1-in-10-young-people-in-japan-are-victims-of-groping-survey-reveals/" style={{ textDecoration: 'underline', color: 'pink' }}>chronic groping on trains</a>, and{' '}
+          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/barefoot-gen-the-unflinching-atomic-bomb-film-from-japans-perspective/" style={{ textDecoration: 'underline', color: 'gold' }}>manga and film</a>,{' '}
+          <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/1-in-10-young-people-in-japan-are-victims-of-groping-survey-reveals/" style={{ textDecoration: 'underline', color: 'palevioletred' }}>chronic groping on trains</a>, and{' '}
           <a href="https://www.tokyoweekender.com/art_and_culture/fashion/vi-e-dit-designer-yuki-otake-nyfw-debut/" style={{ textDecoration: 'underline', color: 'slateblue' }}>New York Fashion Week</a>.
         </p>
 
@@ -45,7 +45,7 @@ export default function AboutPage() {
 
         <p>
           In addition to reporting, I write essays, fiction, and the occasional{' '}
-          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/?srsltid=AfmBOorq99IStQ8ZU5NU3AP_mfByQlXZfiREt5DBef017J3NGkH5zk5U" style={{ textDecoration: 'underline', color: 'lavender' }}>treatise‑on‑loss‑posing‑as‑memoir</a>.
+          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/?srsltid=AfmBOorq99IStQ8ZU5NU3AP_mfByQlXZfiREt5DBef017J3NGkH5zk5U" style={{ textDecoration: 'underline', color: 'cornflowerblue' }}>treatise‑on‑loss‑posing‑as‑memoir</a>.
         </p>
 
         <p>
