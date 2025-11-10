@@ -1,6 +1,8 @@
+import React from 'react';
+
 export default function AboutPage() {
   return (
-    <>
+    <div>
       <h1 style={{ fontSize: '1.6rem', fontFamily: 'Times New Roman, serif', marginBottom: '1.5rem' }}>
         about
       </h1>
@@ -15,21 +17,20 @@ export default function AboutPage() {
         }}
       >
         <p>
-  I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
-  <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'cornflowerblue', fontWeight: 'bold' }}>
-    <em>Tokyo Weekender</em>
-  </a>,{' '}
-  <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'black',  fontWeight: 'bold'}}>
-    <em>The Japan Times</em>
-  </a>,{' '}
-  <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'mediumseagreen',  fontWeight: 'bold' }}>
-    <em>Matador Network</em>
-  </a>,{' '}
-  <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink',  fontWeight: 'bold' }}>
-    <em>Ms. magazine</em>
-  </a>, and more.
-</p>
-
+          I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
+          <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'cornflowerblue', fontWeight: 'bold' }}>
+            <em>Tokyo Weekender</em>
+          </a>,{' '}
+          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'black', fontWeight: 'bold' }}>
+            <em>The Japan Times</em>
+          </a>,{' '}
+          <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'mediumseagreen', fontWeight: 'bold' }}>
+            <em>Matador Network</em>
+          </a>,{' '}
+          <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink', fontWeight: 'bold' }}>
+            <em>Ms. magazine</em>
+          </a>, and more.
+        </p>
 
         <p>
           My reporting focuses on power and the voices that slip beneath it, seeking stories that are both investigative and deeply human. 
@@ -71,8 +72,6 @@ export default function AboutPage() {
           <a href="https://www.instagram.com/wakabss/" style={{ textDecoration: 'underline', color: 'deeppink', fontWeight: 'bold' }}>Instagram</a>!
         </p>
       </div>
-
-     
-    </>
+    </div>
   );
 }
