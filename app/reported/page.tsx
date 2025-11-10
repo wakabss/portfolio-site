@@ -15,7 +15,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               20 Questions with Edanoshin Katsura: ‘Rakugo and techno are both about rhythm and groove’
-              – The Japan Times
+              (The Japan Times)
             </a>
           </li>
           <li>
@@ -25,7 +25,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               A Conversation With Tokyo Tattoo Artist Keisuke Hirata on Taboo, Acceptance and the In-Between 
-              – Tokyo Weekender
+              (Tokyo Weekender)
             </a>
           </li>
            <li>
@@ -35,7 +35,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               Inside Japan’s Most Exclusive Dating App: Tokyo Calendar Date
-              – Tokyo Weekender
+              (Tokyo Weekender)
             </a>
           </li>
         </ul>
@@ -49,7 +49,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               Sanseito, Explained: The Alarming Rise of Japan’s Far-Right Movement
-              – Tokyo Weekender
+              (Tokyo Weekender)
             </a>
           </li>
           <li>
@@ -59,7 +59,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               Japan’s Far-Right ‘Jokes’ About Forced Hysterectomies as Trump’s Authoritarian Playbook Goes Global
-              – Ms. magazine
+              (Ms. magazine)
             </a>
           </li>
         </ul>
@@ -73,7 +73,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               What Trekking to Machu Picchu Taught Me About Strength, Surrender, and the People Who Make It Possible
-              – Matador Network
+              (Matador Network)
             </a>
           </li>
           <li>
@@ -83,7 +83,7 @@ export default function ReportedPage() {
               rel="noopener noreferrer"
             >
               Japan’s Best Weekend Hikes (No Car Needed)
-              – Tokyo Weekender
+              (Tokyo Weekender)
             </a>
           </li>
         </ul>
