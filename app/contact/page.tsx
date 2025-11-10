@@ -1,14 +1,22 @@
 export default function ContactPage() {
   return (
-    <div style={{ fontFamily: 'Times New Roman, serif', backgroundColor: 'white', padding: '2rem', maxWidth: '600px', margin: '0 auto' }}>
+    <div
+      style={{
+        fontFamily: 'Times New Roman, serif',
+        backgroundColor: 'white',
+        padding: '2rem',
+        maxWidth: '600px',
+        margin: '0 auto',
+      }}
+    >
       <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>contact</h1>
 
-      <p style={{ fontSize: '1rem', lineHeight: 1.8, marginBottom: '1.5rem' }}>
+      <p style={{ fontSize: '1rem', lineHeight: 1.8, marginBottom: '1.2rem' }}>
         I’m always open to editorial projects, freelance writing, or creative collaborations. Feel free to reach out:
       </p>
 
-      <div style={{ fontSize: '1rem', lineHeight: 2 }}>
-        <p>
+      <div style={{ fontSize: '1rem', lineHeight: 1.4 }}>
+        <div style={{ marginBottom: '0.3rem' }}>
           <strong>Email:</strong>{' '}
           <a
             href="mailto:wakaba.oto@engawa.global"
@@ -20,23 +28,23 @@ export default function ContactPage() {
           >
             wakaba.oto@engawa.global
           </a>
-        </p>
+        </div>
 
-        <p>
+        <div>
           <strong>Instagram:</strong>{' '}
           <a
             href="https://www.instagram.com/wakabss/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              color: '#6b5b95', // muted lavender
+              color: '#6b5b95',
               textDecoration: 'none',
               position: 'relative',
             }}
           >
             @wakabss
           </a>
-        </p>
+        </div>
       </div>
     </div>
   );
