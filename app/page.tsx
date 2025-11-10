@@ -17,14 +17,14 @@ export default function AboutPage() {
         <p>
           I’m a writer and journalist based between Tokyo and New York City, with bylines in{' '}
           <a href="https://www.tokyoweekender.com/author/wakaba/" style={{ textDecoration: 'underline', color: 'deepskyblue' }}>Tokyo Weekender</a>,{' '}
-          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'darkyellow' }}>The Japan Times</a>,{' '}
-          <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'darkgreen' }}>Matador Network</a>,{' '}
+          <a href="https://www.japantimes.co.jp/author/6522/wakaba-oto/" style={{ textDecoration: 'underline', color: 'peachpuff' }}>The Japan Times</a>,{' '}
+          <a href="https://matadornetwork.com/author/wotofordham-edu/" style={{ textDecoration: 'underline', color: 'mediumseagreen' }}>Matador Network</a>,{' '}
           <a href="https://msmagazine.com/author/woto/" style={{ textDecoration: 'underline', color: 'deeppink' }}>Ms. Magazine</a>, and more.
         </p>
 
         <p>
           My reporting focuses on power and the voices that slip beneath it, seeking stories that are both investigative and deeply human. 
-          For <a href="https://www.tokyoweekender.com/" style={{ textDecoration: 'underline', color: 'hotpink' }}>Tokyo Weekender</a>, I’ve written about{' '}
+          For <a href="https://www.tokyoweekender.com/" style={{ textDecoration: 'underline', color: 'deepskyblue' }}>Tokyo Weekender</a>, I’ve written about{' '}
           <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/" style={{ textDecoration: 'underline', color: 'crimson' }}>Japan’s sex‑work machinery</a>,{' '}
           <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/" style={{ textDecoration: 'underline', color: 'seagreen' }}>nuisance YouTubers</a>,{' '}
           <a href="https://www.tokyoweekender.com/art_and_culture/history/tokyos-lost-showa-era-nightlife-scene/" style={{ textDecoration: 'underline', color: 'indigo' }}>Showa‑era nightlife</a>,{' '}
@@ -45,7 +45,7 @@ export default function AboutPage() {
 
         <p>
           In addition to reporting, I write essays, fiction, and the occasional{' '}
-          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/?srsltid=AfmBOorq99IStQ8ZU5NU3AP_mfByQlXZfiREt5DBef017J3NGkH5zk5U" style={{ textDecoration: 'underline', color: 'yellow' }}>treatise‑on‑loss‑posing‑as‑memoir</a>.
+          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/?srsltid=AfmBOorq99IStQ8ZU5NU3AP_mfByQlXZfiREt5DBef017J3NGkH5zk5U" style={{ textDecoration: 'underline', color: 'peachpuff' }}>treatise‑on‑loss‑posing‑as‑memoir</a>.
         </p>
 
         <p>
