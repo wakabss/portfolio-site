@@ -21,7 +21,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I am a writer and journalist based between Tokyo and New York City,
+          I'm a writer and journalist based between Tokyo and New York City,
           with bylines in{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
@@ -72,7 +72,7 @@ export default function AboutPage() {
         <p>
           My reporting focuses on power and the voices that slip beneath it,
           seeking stories that are both investigative and deeply human. For{" "}
-          <em>Tokyo Weekender</em>, I have written about{" "}
+          <em>Tokyo Weekender</em>, I've written about{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
             style={{ textDecoration: "underline", color: "palevioletred" }}
@@ -176,7 +176,7 @@ export default function AboutPage() {
 
         <p>
           I also do freelance travel writing, which is just a fancy way of
-          saying I will go anywhere. I have flown to Morocco to meet a stranger,
+          saying I will go anywhere. I've flown to Morocco to meet a stranger,
           gone undercover as a hostess in Tokyo's red-light district, and{" "}
           <a
             href="https://matadornetwork.com/read/salkantay-trek-peru/"
