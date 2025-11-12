@@ -176,7 +176,7 @@ export default function AboutPage() {
 
         <p>
           I also do freelance travel writing, which is just a fancy way of
-          saying I will go anywhere. I've flown to Morocco to meet a stranger,
+          saying I'll go anywhere. I've flown to Morocco to meet a stranger for a first date,
           gone undercover as a hostess in Tokyo's red-light district, and{" "}
           <a
             href="https://matadornetwork.com/read/salkantay-trek-peru/"
