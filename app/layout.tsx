@@ -76,12 +76,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               src="/WakabaHiking.png"
               alt="Portrait of Wakaba Oto"
              style={{
-  width: isMobile ? '110px' : '220px',
-  height: isMobile ? 'auto' : '300px',
-  objectFit: 'cover',
-  borderRadius: '8px',
-  alignSelf: isMobile ? 'flex-start' : 'flex-end',
-  marginTop: isMobile ? '0.75rem' : '0',
+              width: isMobile ? '110px' : '220px',
+              height: isMobile ? 'auto' : '300px',
+              objectFit: 'cover',
+              borderRadius: '8px',
+              alignSelf: isMobile ? 'flex-start' : 'flex-end',
+              marginTop: isMobile ? '0.75rem' : '0',
 }}
               }}
             />
