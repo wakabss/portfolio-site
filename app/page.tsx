@@ -81,11 +81,8 @@ export default function AboutPage() {
     , running the magazine end-to-end across web and{" "}
     <a
       href="https://www.instagram.com/tkymisfits/"
-      style={{
-        fontWeight: "bold",
-      }}
     >
-  social. 
+  social. {" "}
 </a>
           My work focuses a lot on culture, subcultures, travel, politics, and power, along with pretty much whatever else piques my curiosity.
         </p>
