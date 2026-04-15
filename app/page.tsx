@@ -21,7 +21,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a writer and journalist based between Tokyo and New York City,
+          I'm a writer and editor based between Tokyo and New York City,
           with bylines in{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
@@ -66,7 +66,7 @@ export default function AboutPage() {
           >
             <em>Ms. magazine</em>
           </a>
-          , and more.
+          , and more. Right now, I lead editorial and creative direction at Tokyo Misfits, running the magazine end-to-end across web and social.
         </p>
 
         <p>
