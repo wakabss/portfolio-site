@@ -12,6 +12,8 @@ export default function CreativePage() {
               href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/?srsltid=AfmBOooD5BWyRGEhiGzlHFKSm9tr2JBAZiTqVMmdFz1F_jdBGUswWbLY"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+
             >
               “Egg Salad and Other Nudities”
             </a>
@@ -25,6 +27,8 @@ export default function CreativePage() {
               href="https://substack.com/home/post/p-187428897"
               target="_blank"
               rel="noopener noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+
             >
               Arm Wrestling the Heavy Weight of Existence
             </a>
