@@ -195,31 +195,7 @@ export default function AboutPage() {
           without any prior training, all in the name of a good story.
         </p>
 
-        <p>
-          Feel free to reach out to me over{" "}
-          <a
-            href="mailto:wakaba.oto@engawa.global"
-            style={{
-              textDecoration: "underline",
-              color: "cornflowerblue",
-              
-            }}
-          >
-            email
-          </a>{" "}
-          or on{" "}
-          <a
-            href="https://www.instagram.com/wakabss/"
-            style={{
-              textDecoration: "underline",
-              color: "deeppink",
-              
-            }}
-          >
-            Instagram
-          </a>
-          !
-        </p>
+
       </div>
     </>
   );
