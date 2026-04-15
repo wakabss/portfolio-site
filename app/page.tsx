@@ -96,59 +96,52 @@ export default function AboutPage() {
           For{" "}
           <em>Tokyo Weekender</em>, I've written about{" "}
           <a
-            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
+            href="https://www.tokyoweekender.com/art_and_culture/design/conversation-with-tokyo-tattoo-artist-keisuke-hirata/"
             style={{ textDecoration: "underline", color: "palevioletred" }}
           >
-            Japan's sex-work machinery
+            tattoo artists
+          </a>
+          ,{" "}
+          <a
+            href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
+            style={{ textDecoration: "underline", color: "limegreen" }}
+          >
+            mountain hiking
+          </a>
+          ,{" "}
+          <a
+            href="https://www.tokyoweekender.com/travel/sado-island-japan/"
+            style={{ textDecoration: "underline", color: "darkviolet" }}
+          >
+            hidden islands
           </a>
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/"
-            style={{ textDecoration: "underline", color: "limegreen" }}
-          >
-            nuisance YouTubers
-          </a>
-          ,{" "}
-          <a
-            href="https://www.tokyoweekender.com/art_and_culture/history/tokyos-lost-showa-era-nightlife-scene/"
-            style={{ textDecoration: "underline", color: "darkviolet" }}
-          >
-            Showa-era nightlife
-          </a>
-          ,{" "}
-          <a
-            href="https://www.tokyoweekender.com/travel/japans-best-weekend-hikes-no-car-needed/"
             style={{ textDecoration: "underline", color: "teal" }}
           >
-            hiking
+            rogue tourists
           </a>
           ,{" "}
           <a
-            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nihon-hidankyos-nobel-peace-prize-raises-questions-about-the-future-of-nuclear-warfare/"
+            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
             style={{ textDecoration: "underline", color: "darkred" }}
           >
-            nuclear peace politics
+            sex work
           </a>
           ,{" "}
           <a
-            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/barefoot-gen-the-unflinching-atomic-bomb-film-from-japans-perspective/"
+            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/logan-paul-wants-to-be-welcomed-back-to-japan/"
             style={{ textDecoration: "underline", color: "orange" }}
           >
-            manga and film
-          </a>
-          ,{" "}
-          <a
-            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/1-in-10-young-people-in-japan-are-victims-of-groping-survey-reveals/"
-            style={{ textDecoration: "underline", color: "palevioletred" }}
-          >
-            chronic groping on trains
+            Logan Paul
           </a>
           , and{" "}
           <a
-            href="https://www.tokyoweekender.com/art_and_culture/fashion/vi-e-dit-designer-yuki-otake-nyfw-debut/"
+            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/graffiti-at-yasukuni-shrine-reignites-tensions/"
             style={{ textDecoration: "underline", color: "slateblue" }}
           >
-            New York Fashion Week
+            wartime politics
           </a>
           .
         </p>
