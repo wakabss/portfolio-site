@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                fontFamily: 'Helvetica, serif',
+                fontFamily: 'Helvetica, Arial, sans-serif',
                 fontSize: isMobile ? '15px' : '16px',
                 gap: '0.4rem',
                 flex: isMobile ? '1' : 'unset',
