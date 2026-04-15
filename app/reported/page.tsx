@@ -13,6 +13,7 @@ export default function ReportedPage() {
               href="https://www.japantimes.co.jp/community/2025/03/22/our-lives/edanoshin-katsura-z-rakugo/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               20 Questions with Edanoshin Katsura: ‘Rakugo and techno are both about rhythm and groove’
               (The Japan Times)
