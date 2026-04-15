@@ -2,7 +2,7 @@ export default function ContactPage() {
   return (
     <div
       style={{
-        fontFamily: 'Times New Roman, serif',
+        fontFamily: 'Helvetica, serif',
         backgroundColor: 'white',
         padding: '2rem',
         maxWidth: '600px',
