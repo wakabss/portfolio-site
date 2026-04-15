@@ -18,7 +18,7 @@ export default function CreativePage() {
               “Egg Salad and Other Nudities”
             </a>
             <div style={{ fontSize: "0.9rem", color: "#555", marginTop: "0.3rem" }}>
-              A short memoir on embodiment, nudity, and intimacy, set on a beach in Lanzrote, Canary Islands.
+              A short memoir on embodiment, nudity, and intimacy, set on a beach in Lanzarote.
             </div>
           </li>
 
