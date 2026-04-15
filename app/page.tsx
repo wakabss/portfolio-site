@@ -66,7 +66,29 @@ export default function AboutPage() {
           >
             <em>Ms. magazine</em>
           </a>
-          , and more. Right now, I lead editorial and creative direction at Tokyo Misfits, running the magazine end-to-end across web and social. 
+          , and more. 
+          Right now, I lead editorial and creative direction at{" "}
+      <a
+      href="https://www.tokyomisfits.com/"
+      style={{
+        textDecoration: "underline",
+        color: "purple",
+        fontWeight: "bold",
+      }}
+    >
+      Tokyo Misfits
+    </a>
+    , running the magazine end-to-end across web and{" "}
+    <a
+      href="https://www.instagram.com/tkymisfits/"
+      style={{
+        textDecoration: "underline",
+        color: "deeppink",
+        fontWeight: "bold",
+      }}
+    >
+  social
+</a>
           My work focuses a lot on culture, subcultures, travel, politics, and power, along with pretty much whatever else piques my curiosity.
         </p>
 
