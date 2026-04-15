@@ -71,8 +71,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          My reporting focuses on power and the voices that slip beneath it,
-          seeking stories that are both investigative and deeply human. For{" "}
+          For{" "}
           <em>Tokyo Weekender</em>, I've written about{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
