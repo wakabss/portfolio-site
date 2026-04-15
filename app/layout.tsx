@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             {/* Right: Image */}
             <img
-              src="/subject4.png"
+              src="/WakabaHiking.png"
               alt="Portrait of Wakaba Oto"
               style={{
                 width: isMobile ? '110px' : '100%',
