@@ -37,7 +37,6 @@ export default function ContactPage() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              color: '#6b5b95',
               textDecoration: 'none',
               position: 'relative',
             }}
