@@ -21,7 +21,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a writer and editor based between Tokyo and New York City.
+          I'm a writer and editor based in Tokyo and New York City.
           I've written for{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
@@ -89,7 +89,7 @@ export default function AboutPage() {
   social
 </a>
 .
-          My work focuses a lot on culture, subcultures, travel, politics, and power, along with pretty much whatever else piques my curiosity.
+          My work focuses a lot on culture, subcultures, travel, politics, and power — along with pretty much whatever else piques my curiosity.
         </p>
 
         <p>
