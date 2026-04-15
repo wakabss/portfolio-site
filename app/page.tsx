@@ -125,7 +125,7 @@ export default function AboutPage() {
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
-            style={{ textDecoration: "underline", color: "darkred" }}
+            style={{ textDecoration: "underline", color: "red" }}
           >
             sex work
           </a>
