@@ -3,7 +3,7 @@ export default function ReportedPage() {
     <>
       <h1>reported work</h1>
 
-      <div style={{ fontSize: '1.05rem', lineHeight: 1.6 }}>
+      <div style={{ fontSize: '1rem', lineHeight: 1.6 }}>
         <p>Here’s a selection of my reported work:</p>
 
         <h2>features</h2>
