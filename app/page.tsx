@@ -82,12 +82,10 @@ export default function AboutPage() {
     <a
       href="https://www.instagram.com/tkymisfits/"
       style={{
-        textDecoration: "underline",
-        color: "deeppink",
         fontWeight: "bold",
       }}
     >
-  social
+  social. 
 </a>
           My work focuses a lot on culture, subcultures, travel, politics, and power, along with pretty much whatever else piques my curiosity.
         </p>
