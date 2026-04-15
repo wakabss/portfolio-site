@@ -21,8 +21,8 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a writer and editor based between Tokyo and New York City,
-          with bylines in{" "}
+          I'm a writer and editor based between Tokyo and New York City.
+          I've written for{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
             style={{
