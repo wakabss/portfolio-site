@@ -3,7 +3,7 @@ export default function CreativePage() {
     <>
       <h1>creative work</h1>
 
-      <div style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>
+      <div style={{ fontSize: '1rem', lineHeight: 1.6 }}>
         <p>Here’s a selection of my essays, memoirs, and fiction:</p>
         <ul>
           <li>
