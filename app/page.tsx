@@ -81,6 +81,9 @@ export default function AboutPage() {
     , running the magazine end-to-end across web and{" "}
     <a
       href="https://www.instagram.com/tkymisfits/"
+      style={{
+        textDecoration: "none",
+        color: "inherit",
     >
   social. {" "}
 </a>
