@@ -4,7 +4,7 @@ export default function AboutPage() {
       <h1
         style={{
           fontSize: "1.6rem",
-          fontFamily: "Times New Roman, serif",
+          fontFamily: "Helvetica, serif",
           marginBottom: "1.5rem",
         }}
       >
@@ -15,7 +15,7 @@ export default function AboutPage() {
         style={{
           fontSize: "1rem",
           lineHeight: "1.75",
-          fontFamily: "Times New Roman, serif",
+          fontFamily: "Helvetica, serif",
           backgroundColor: "white",
           color: "#111",
         }}
