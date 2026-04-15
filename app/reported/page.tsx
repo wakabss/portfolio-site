@@ -3,7 +3,7 @@ export default function ReportedPage() {
     <>
       <h1>reported work</h1>
 
-      <div style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>
+      <div style={{ fontSize: '1.05rem', lineHeight: 1.6 }}>
         <p>Here’s a selection of my reported work:</p>
 
         <h2>features</h2>
@@ -20,22 +20,22 @@ export default function ReportedPage() {
           </li>
           <li>
             <a
-              href="https://www.tokyoweekender.com/art_and_culture/arts/conversation-with-tokyo-tattoo-artist-keisuke-hirata/"
+              href="https://www.tokyoweekender.com/art_and_culture/shuzo-hamachi-bonsai-scapes/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              A Conversation With Tokyo Tattoo Artist Keisuke Hirata on Taboo, Acceptance and the In-Between 
+              Shuzo Hamachi Is Reconstructing Bonsai From the Pot Up 
               (Tokyo Weekender)
             </a>
           </li>
            <li>
             <a
-              href="https://www.tokyoweekender.com/japan-life/news-and-opinion/inside-japans-most-exclusive-dating-app-tokyo-calendar-date/"
+              href="https://www.tokyomisfits.com/stories/the-bengali-freedom-fighter-who-changed-how-japan-eats-curry"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Inside Japan’s Most Exclusive Dating App: Tokyo Calendar Date
-              (Tokyo Weekender)
+              The Bengali Freedom Fighter Who Changed How Japan Eats Curry
+              (Tokyo Misfits)
             </a>
           </li>
         </ul>
@@ -78,11 +78,31 @@ export default function ReportedPage() {
           </li>
           <li>
             <a
-              href="https://www.tokyoweekender.com/travel/japans-best-weekend-hikes-no-car-needed/"
+              href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Japan’s Best Weekend Hikes (No Car Needed)
+              Where Hikers Sleep at 3,000 Meters: Japan’s Mountain Huts
+              (Tokyo Weekender)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tokyoweekender.com/travel/japan-pilgrimage-routes/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pilgrimage Routes in Japan: Walking Ancient Paths of Faith
+              (Tokyo Weekender)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tokyoweekender.com/travel/sado-island-japan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sado Island: Japan’s Most Mysterious Island Escape
               (Tokyo Weekender)
             </a>
           </li>
