@@ -154,7 +154,7 @@ export default function AboutPage() {
           >
             column
           </a>{" "}
-          about global feminist movements and reported on issues like{" "}
+          on global feminist movements and reported on issues like{" "}
           <a
             href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/"
             style={{ textDecoration: "underline", color: "palevioletred" }}
@@ -178,25 +178,19 @@ export default function AboutPage() {
         </p>
 
         <p>
-          In addition to reporting, I write essays, fiction, and the occasional{" "}
-          <a
-            href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/"
-            style={{ textDecoration: "underline", color: "cornflowerblue" }}
-          >
-            treatise-on-loss-posing-as-memoir
-          </a>
-          .
+          In addition to reporting, I write essays, fiction, and the occasional
+            treatise-on-loss-posing-as-memoir.
         </p>
 
         <p>
           I also do freelance travel writing, which is just a fancy way of
           saying I'll go anywhere. I've flown to Morocco to meet a stranger for a first date,
-          gone undercover as a hostess in Tokyo's red-light district, and{" "}
+          gone undercover as a hostess in Tokyo's red-light district, and completed a seven-day trek to{" "}
           <a
             href="https://matadornetwork.com/read/salkantay-trek-peru/"
             style={{ textDecoration: "underline", color: "mediumseagreen" }}
           >
-            completed a seven-day trek to Machu Picchu
+            Machu Picchu
           </a>{" "}
           without any prior training, all in the name of a good story.
         </p>
@@ -208,7 +202,7 @@ export default function AboutPage() {
             style={{
               textDecoration: "underline",
               color: "cornflowerblue",
-              fontWeight: "bold",
+              
             }}
           >
             email
@@ -219,7 +213,7 @@ export default function AboutPage() {
             style={{
               textDecoration: "underline",
               color: "deeppink",
-              fontWeight: "bold",
+              
             }}
           >
             Instagram
