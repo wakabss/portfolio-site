@@ -24,6 +24,7 @@ export default function ReportedPage() {
               href="https://www.tokyoweekender.com/art_and_culture/shuzo-hamachi-bonsai-scapes/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               Shuzo Hamachi Is Reconstructing Bonsai From the Pot Up 
               (Tokyo Weekender)
@@ -34,6 +35,7 @@ export default function ReportedPage() {
               href="https://www.tokyomisfits.com/stories/the-bengali-freedom-fighter-who-changed-how-japan-eats-curry"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               The Bengali Freedom Fighter Who Changed How Japan Eats Curry
               (Tokyo Misfits)
@@ -48,6 +50,7 @@ export default function ReportedPage() {
               href="https://www.tokyoweekender.com/japan-life/news-and-opinion/sanseito-explained-japans-far-right-movement/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               Sanseito, Explained: The Alarming Rise of Japan’s Far-Right Movement
               (Tokyo Weekender)
@@ -58,6 +61,7 @@ export default function ReportedPage() {
               href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               Japan’s Far-Right ‘Jokes’ About Forced Hysterectomies as Trump’s Authoritarian Playbook Goes Global
               (Ms. magazine)
@@ -72,6 +76,7 @@ export default function ReportedPage() {
               href="https://matadornetwork.com/read/salkantay-trek-peru/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               What Trekking to Machu Picchu Taught Me About Strength, Surrender, and the People Who Make It Possible
               (Matador Network)
@@ -82,6 +87,7 @@ export default function ReportedPage() {
               href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               Where Hikers Sleep at 3,000 Meters: Japan’s Mountain Huts
               (Tokyo Weekender)
@@ -92,6 +98,7 @@ export default function ReportedPage() {
               href="https://www.tokyoweekender.com/travel/japan-pilgrimage-routes/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               Pilgrimage Routes in Japan: Walking Ancient Paths of Faith
               (Tokyo Weekender)
@@ -102,6 +109,7 @@ export default function ReportedPage() {
               href="https://www.tokyoweekender.com/travel/sado-island-japan/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               Sado Island: Japan’s Most Mysterious Island Escape
               (Tokyo Weekender)
