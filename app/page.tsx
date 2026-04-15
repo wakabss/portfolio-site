@@ -160,21 +160,21 @@ export default function AboutPage() {
             style={{ textDecoration: "underline", color: "palevioletred" }}
           >
             nonconsensual photography
-          </a>
+          </a> in Japan
           ,{" "}
           <a
             href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
             style={{ textDecoration: "underline", color: "limegreen" }}
           >
-            satire weaponized into policy
-          </a>
+            “jokes” shaping policy
+          </a> across the world
           , and{" "}
           <a
             href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/"
             style={{ textDecoration: "underline", color: "teal" }}
           >
             student visa revocations
-          </a>
+          </a> in the U.S
           .
         </p>
 
