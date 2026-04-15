@@ -82,7 +82,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               borderRadius: '8px',
               alignSelf: isMobile ? 'flex-start' : 'flex-end',
               marginTop: isMobile ? '0.75rem' : '0',
-}}
               }}
             />
           </div>
