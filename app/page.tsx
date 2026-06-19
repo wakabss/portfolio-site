@@ -38,7 +38,7 @@ export default function AboutPage() {
             href="https://www.japantimes.co.jp/author/6522/wakaba-oto/"
             style={{
               textDecoration: "underline",
-              color: "#ffd500",
+              color: "#ffe150",
               fontWeight: "bold",
             }}
           >
@@ -99,14 +99,14 @@ export default function AboutPage() {
           <em>Tokyo Weekender</em>, I've written about{" "}
           <a
             href="https://www.tokyoweekender.com/art_and_culture/design/conversation-with-tokyo-tattoo-artist-keisuke-hirata/"
-            style={{ textDecoration: "underline", color: "purple" }}
+            style={{ textDecoration: "underline", color: "#9f85ff" }}
           >
             tattoo artists
           </a>
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
-            style={{ textDecoration: "underline", color: "limegreen" }}
+            style={{ textDecoration: "underline", color: "#06b178" }}
           >
             mountain huts
           </a>
@@ -120,7 +120,7 @@ export default function AboutPage() {
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/"
-            style={{ textDecoration: "underline", color: "teal" }}
+            style={{ textDecoration: "underline", color: "#74b9ff" }}
           >
             rogue tourists
           </a>
@@ -134,14 +134,14 @@ export default function AboutPage() {
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/logan-paul-wants-to-be-welcomed-back-to-japan/"
-            style={{ textDecoration: "underline", color: "orange" }}
+            style={{ textDecoration: "underline", color: "#ffe150" }}
           >
             Logan Paul
           </a>
           , and{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/graffiti-at-yasukuni-shrine-reignites-tensions/"
-            style={{ textDecoration: "underline", color: "slateblue" }}
+            style={{ textDecoration: "underline", color: "#c77dff" }}
           >
             wartime politics
           </a>
@@ -159,7 +159,7 @@ export default function AboutPage() {
           on global feminist movements and reported on issues like{" "}
           <a
             href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/"
-            style={{ textDecoration: "underline", color: "palevioletred" }}
+            style={{ textDecoration: "underline", color: "#ffe150" }}
           >
             nonconsensual photography
           </a> in Japan,
@@ -173,7 +173,7 @@ export default function AboutPage() {
           {" "}
           <a
             href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/"
-            style={{ textDecoration: "underline", color: "teal" }}
+            style={{ textDecoration: "underline", color: "#c77dff" }}
           >
             student visa revocations
           </a> in the U.S.
@@ -185,7 +185,7 @@ export default function AboutPage() {
     <em>Sonora Review</em>
   </a>{" "}
   and{" "}
-  <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/" style={{ textDecoration: "underline", color: "#55efc4", fontWeight: "bold" }}>
+  <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/" style={{ textDecoration: "underline", color: "#93e5ab", fontWeight: "bold" }}>
     <em>Panorama Journal</em>
   </a>
   .
