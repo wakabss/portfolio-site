@@ -6,7 +6,7 @@ export default function CreativePage() {
       {/* ── Essays ── */}
       <div style={{ fontSize: '1rem', lineHeight: 1.6 }}>
         <p style={{ color: "#999", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>essays & prose</p>
-        <ul style={{ listStyle: "none", paddingLeft: 0 }}>]
+        <ul style={{ listStyle: "none", paddingLeft: 0 }}>
            <li style={{ marginBottom: "1.5rem" }}>
             <a
               href="https://sonorareview.com/2026/05/22/in-the-space-between-ferries-wakaba-oto/"
