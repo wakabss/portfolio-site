@@ -67,7 +67,7 @@ export default function AboutPage() {
             <em>Ms. magazine</em>
           </a>
           , and more. 
-          I also founded{" "}
+          I also founded the web magazine behind{" "}
 <a
   href="https://www.tokyomisfits.com/"
   style={{
@@ -76,9 +76,9 @@ export default function AboutPage() {
     fontWeight: "bold",
   }}
 >
-  Tokyo Misfits'
+  Tokyo Misfits
 </a>{" "}
-online magazine. {" "}
+. {" "}
 <a
   href="https://www.instagram.com/tkymisfits/"
   style={{
