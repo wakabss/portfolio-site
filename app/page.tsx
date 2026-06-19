@@ -177,8 +177,7 @@ online magazine. {" "}
         </p>
 
         <p>
-          In addition to reporting, I write essays, fiction, and the occasional
-            treatise-on-loss-posing-as-memoir.
+          In addition to reporting, I write essays and fiction for literary magazines.
         </p>
 
         <p>
@@ -191,7 +190,7 @@ online magazine. {" "}
           >
             Machu Picchu
           </a>{" "}
-          without any prior training, all in the name of a good story.
+          without any prior training — all in the name of a good story!
         </p>
 
 
