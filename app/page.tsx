@@ -49,7 +49,7 @@ export default function AboutPage() {
             href="https://matadornetwork.com/author/wotofordham-edu/"
             style={{
               textDecoration: "underline",
-              color: "limegreen",
+              color: "#93e5ab",
               fontWeight: "bold",
             }}
           >
@@ -108,7 +108,7 @@ export default function AboutPage() {
             href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
             style={{ textDecoration: "underline", color: "limegreen" }}
           >
-            mountain hurs
+            mountain huts
           </a>
           ,{" "}
           <a
