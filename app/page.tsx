@@ -185,7 +185,7 @@ export default function AboutPage() {
             <em>Sonora Review</em>
           </a>{" "}
           and{" "}
-          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/" style={{ textDecoration: "underline", color: "inherit" }}>
+          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/" style={{ textDecoration: "underline", color: "#74b9ff", fontWeight: "bold }}>
             <em>Panorama Journal</em>
           </a>
           .
