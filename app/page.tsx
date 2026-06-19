@@ -78,7 +78,7 @@ export default function AboutPage() {
 >
   Tokyo Misfits'
 </a>{" "}
-online magazine.
+online magazine. {" "}
 <a
   href="https://www.instagram.com/tkymisfits/"
   style={{
