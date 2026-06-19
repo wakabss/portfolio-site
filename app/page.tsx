@@ -77,7 +77,7 @@ export default function AboutPage() {
   }}
 >
   Tokyo Misfits
-</a>{" "}
+</a>
 . {" "}
 <a
   href="https://www.instagram.com/tkymisfits/"
