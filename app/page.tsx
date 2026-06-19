@@ -87,6 +87,9 @@ online magazine. {" "}
   }}
 >
 </a>
+        </p>
+
+        <p>
 
            My work focuses a lot on covering Japanese subculture from the inside — the love hotels, dive bars, tattoo parlors, creative scenes, and other corners of life I know firsthand — alongside politics, travel, and the people and places that tend to fall outside the frame of conventional reporting on both sides of the Pacific.
         </p>
