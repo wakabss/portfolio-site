@@ -76,9 +76,9 @@ export default function AboutPage() {
         fontWeight: "bold",
       }}
     >
-      Tokyo Misfits'
+      Tokyo Misfits' 
     </a>
-    online magazine{" "}
+     online magazine{" "}
 <a
   href="https://www.instagram.com/tkymisfits/"
   style={{
