@@ -72,7 +72,7 @@ export default function AboutPage() {
   href="https://www.tokyomisfits.com/"
   style={{
     textDecoration: "underline",
-    color: "#e4afff",
+    color: "#c77dff",
     fontWeight: "bold",
   }}
 >
