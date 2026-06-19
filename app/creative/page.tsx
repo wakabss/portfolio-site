@@ -17,7 +17,7 @@ export default function CreativePage() {
               In the Space Between Ferries
             </a>
             <div style={{ fontSize: "0.9rem", color: "#555", marginTop: "0.3rem" }}>
-            A love story about a volunteer hostel in Siquijor, a Slovenian medic, and the futures we imagine between departures.            
+          Personal essay, love story, existential travelogue set in the Philippines. Sonora Review, 2026.          
             </div>
           </li>
           <li style={{ marginBottom: "1.5rem" }}>
@@ -30,7 +30,7 @@ export default function CreativePage() {
               Egg Salad and Other Nudities
             </a>
             <div style={{ fontSize: "0.9rem", color: "#555", marginTop: "0.3rem" }}>
-            A mini travel memoir about nakedness, vulnerability, and connection found on a nude beach in Lanzarote            
+          Travel memoir set on a nude beach in Lanzarote. Panorama Journal's Paris issue, 2025.
             </div>
           </li>
           <li style={{ marginBottom: "1.5rem" }}>
@@ -43,7 +43,7 @@ export default function CreativePage() {
               Arm Wrestling the Heavy Weight of Existence
             </a>
             <div style={{ fontSize: "0.9rem", color: "#555", marginTop: "0.3rem" }}>
-              An essay about trying to build a creative life under late capitalism
+            An essay on creative burnout. Published on Substack.
             </div>
           </li>
         </ul>
