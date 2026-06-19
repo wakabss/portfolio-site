@@ -4,10 +4,20 @@ export default function ReportedPage() {
       <h1>reported work</h1>
 
       <div style={{ fontSize: '1rem', lineHeight: 1.6 }}>
-        <p>Here’s a selection of my reported work:</p>
 
         <h2>features</h2>
         <ul>
+          <li>
+            <a
+              href="https://www.tokyomisfits.com/stories/tokyo-s-love-hotels-and-the-death-of-camp"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              Tokyo's Disappearing Love Hotels and the Death of Camp
+              (Tokyo Misfits)
+            </a>
+          </li>
           <li>
             <a
               href="https://www.japantimes.co.jp/community/2025/03/22/our-lives/edanoshin-katsura-z-rakugo/"
@@ -28,17 +38,6 @@ export default function ReportedPage() {
             >
               Shuzo Hamachi Is Reconstructing Bonsai From the Pot Up 
               (Tokyo Weekender)
-            </a>
-          </li>
-           <li>
-            <a
-              href="https://www.tokyomisfits.com/stories/the-bengali-freedom-fighter-who-changed-how-japan-eats-curry"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              The Bengali Freedom Fighter Who Changed How Japan Eats Curry
-              (Tokyo Misfits)
             </a>
           </li>
         </ul>
