@@ -180,7 +180,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          In addition to reporting, I write essays and fiction for literary magazines.
+          In addition to reporting, I write essays and fiction for literary magazines. Recent work has appeared in Sonora Review and Panorama Journal.
         </p>
 
         <p>
@@ -193,7 +193,7 @@ export default function AboutPage() {
           >
             Machu Picchu
           </a>{" "}
-          without any prior training — all in the name of a good story!
+          without any prior training — all in the name of a good story.
         </p>
 
 
