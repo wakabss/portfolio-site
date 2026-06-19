@@ -49,7 +49,7 @@ export default function AboutPage() {
             href="https://matadornetwork.com/author/wotofordham-edu/"
             style={{
               textDecoration: "underline",
-              color: "mediumseagreen",
+              color: "limegreen",
               fontWeight: "bold",
             }}
           >
@@ -108,7 +108,7 @@ export default function AboutPage() {
             href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
             style={{ textDecoration: "underline", color: "limegreen" }}
           >
-            mountain hiking
+            mountain hurs
           </a>
           ,{" "}
           <a
@@ -127,14 +127,14 @@ export default function AboutPage() {
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
-            style={{ textDecoration: "underline", color: "red" }}
+            style={{ textDecoration: "underline", color: "deeppink" }}
           >
             sex work
           </a>
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/logan-paul-wants-to-be-welcomed-back-to-japan/"
-            style={{ textDecoration: "underline", color: "deeppink" }}
+            style={{ textDecoration: "underline", color: "orange" }}
           >
             Logan Paul
           </a>
