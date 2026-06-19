@@ -27,7 +27,7 @@ export default function AboutPage() {
             href="https://www.tokyoweekender.com/author/wakaba/"
             style={{
               textDecoration: "underline",
-              color: "cornflowerblue",
+              color: "#74b9ff",
               fontWeight: "bold",
             }}
           >
@@ -38,7 +38,7 @@ export default function AboutPage() {
             href="https://www.japantimes.co.jp/author/6522/wakaba-oto/"
             style={{
               textDecoration: "underline",
-              color: "#ffe566",
+              color: "#ffec3d",
               fontWeight: "bold",
             }}
           >
@@ -99,7 +99,7 @@ export default function AboutPage() {
           <em>Tokyo Weekender</em>, I've written about{" "}
           <a
             href="https://www.tokyoweekender.com/art_and_culture/design/conversation-with-tokyo-tattoo-artist-keisuke-hirata/"
-            style={{ textDecoration: "underline", color: "palevioletred" }}
+            style={{ textDecoration: "underline", color: "purple" }}
           >
             tattoo artists
           </a>
@@ -134,7 +134,7 @@ export default function AboutPage() {
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/logan-paul-wants-to-be-welcomed-back-to-japan/"
-            style={{ textDecoration: "underline", color: "orange" }}
+            style={{ textDecoration: "underline", color: "deeppink" }}
           >
             Logan Paul
           </a>
