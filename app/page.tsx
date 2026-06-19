@@ -179,17 +179,17 @@ export default function AboutPage() {
           </a> in the U.S.
         </p>
 
-       <p>
-          In addition to reporting, I write essays and fiction for literary magazines. Recent work has appeared in{" "}
-          <a href="https://sonorareview.com/2026/05/22/in-the-space-between-ferries-wakaba-oto/" style={{ textDecoration: "underline", color: "inherit" }}>
-            <em>Sonora Review</em>
-          </a>{" "}
-          and{" "}
-          <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/" style={{ textDecoration: "underline", color: "#74b9ff", fontWeight: "bold }}>
-            <em>Panorama Journal</em>
-          </a>
-          .
-        </p>
+      <p>
+  In addition to reporting, I write essays and fiction for literary magazines. Recent work has appeared in{" "}
+  <a href="https://sonorareview.com/2026/05/22/in-the-space-between-ferries-wakaba-oto/" style={{ textDecoration: "underline", color: "#74b9ff", fontWeight: "bold" }}>
+    <em>Sonora Review</em>
+  </a>{" "}
+  and{" "}
+  <a href="https://panoramajournal.org/issues/issue-15-paris/paris-egg-salad-and-other-nudities/" style={{ textDecoration: "underline", color: "#55efc4", fontWeight: "bold" }}>
+    <em>Panorama Journal</em>
+  </a>
+  .
+</p>
 
         <p>
           I also do freelance travel writing, which is just a fancy way of
