@@ -113,7 +113,7 @@ export default function AboutPage() {
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/travel/sado-island-japan/"
-            style={{ textDecoration: "underline", color: "#00f5d4" }}
+            style={{ textDecoration: "underline", color: "#7AE2CF" }}
           >
             hidden islands
           </a>
@@ -173,7 +173,7 @@ export default function AboutPage() {
           {" "}
           <a
             href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/"
-            style={{ textDecoration: "underline", color: "#00f5d4" }}
+            style={{ textDecoration: "underline", color: "#7AE2CF" }}
           >
             student visa revocations
           </a> in the U.S.
