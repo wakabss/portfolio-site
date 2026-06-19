@@ -67,7 +67,7 @@ export default function AboutPage() {
             <em>Ms. magazine</em>
           </a>
           , and more. 
-          Right now, I lead editorial and creative direction at{" "}
+          I also founded {" "}
       <a
       href="https://www.tokyomisfits.com/"
       style={{
@@ -76,9 +76,9 @@ export default function AboutPage() {
         fontWeight: "bold",
       }}
     >
-      Tokyo Misfits
+      Tokyo Misfits'
     </a>
-   , running the magazine end-to-end across web and{" "}
+   online magazine.{" "}
 <a
   href="https://www.instagram.com/tkymisfits/"
   style={{
@@ -89,7 +89,7 @@ export default function AboutPage() {
   social
 </a>
 .
-          My work focuses a lot on culture, subcultures, travel, politics, and power — along with pretty much whatever else piques my curiosity!
+           My work focuses a lot on covering Japanese subculture from the inside — the love hotels, dive bars, tattoo parlors, creative scenes, and other corners of life I know firsthand — alongside politics, travel, and the people and places that tend to fall outside the frame of conventional reporting on both sides of the Pacific.
         </p>
 
         <p>
