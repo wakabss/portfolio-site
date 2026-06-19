@@ -67,18 +67,18 @@ export default function AboutPage() {
             <em>Ms. magazine</em>
           </a>
           , and more. 
-          I also founded {" "}
-      <a
-      href="https://www.tokyomisfits.com/"
-      style={{
-        textDecoration: "underline",
-        color: "purple",
-        fontWeight: "bold",
-      }}
-    >
-      Tokyo Misfits' 
-    </a>
-     online magazine{" "}
+          I also founded{" "}
+<a
+  href="https://www.tokyomisfits.com/"
+  style={{
+    textDecoration: "underline",
+    color: "purple",
+    fontWeight: "bold",
+  }}
+>
+  Tokyo Misfits'
+</a>{" "}
+online magazine.
 <a
   href="https://www.instagram.com/tkymisfits/"
   style={{
