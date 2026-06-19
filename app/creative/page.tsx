@@ -43,7 +43,7 @@ export default function CreativePage() {
 
           <a href="https://www.instagram.com/p/DVi3OqwjEw5/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ width: "100%", aspectRatio: "1 / 1", backgroundColor: "#f0f0f0", overflow: "hidden", marginBottom: "0.6rem" }}>
-              <img src="/tattoo-onsen.png" alt="Tattoo-Friendly Onsen" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <img src="/TattooOnsen.png" alt="Tattoo-Friendly Onsen" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Tattoo-Friendly Onsen</div>
             <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 242K+ views</span></div>
@@ -51,7 +51,7 @@ export default function CreativePage() {
 
           <a href="https://www.instagram.com/p/DZcovDsjqIY/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ width: "100%", aspectRatio: "1 / 1", backgroundColor: "#f0f0f0", overflow: "hidden", marginBottom: "0.6rem" }}>
-              <img src="/love-hotels.png" alt="Tokyo's Love Hotels and the Death of Camp" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <img src="/LoveHotels.png" alt="Tokyo's Love Hotels and the Death of Camp" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Tokyo&rsquo;s Love Hotels and the Death of Camp</div>
             <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 220K+ views</span></div>
@@ -59,7 +59,7 @@ export default function CreativePage() {
 
           <a href="https://www.instagram.com/p/DUdgwHME_Vz/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ width: "100%", aspectRatio: "1 / 1", backgroundColor: "#f0f0f0", overflow: "hidden", marginBottom: "0.6rem" }}>
-              <img src="/zinchikurandan.png" alt="Zinchikurandan" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <img src="/Zinchikurandan.png" alt="Zinchikurandan" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Zinchikurandan</div>
             <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 174K+ views</span></div>
@@ -67,7 +67,7 @@ export default function CreativePage() {
 
           <a href="https://www.instagram.com/p/DZsCHpujuFI/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ width: "100%", aspectRatio: "1 / 1", backgroundColor: "#f0f0f0", overflow: "hidden", marginBottom: "0.6rem" }}>
-              <img src="/gal-is-mind.png" alt="Gal is Mind" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <img src="/GalIsMind.png" alt="Gal is Mind" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Gal is Mind</div>
             <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 81K+ views</span></div>
