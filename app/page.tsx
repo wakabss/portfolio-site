@@ -38,7 +38,7 @@ export default function AboutPage() {
             href="https://www.japantimes.co.jp/author/6522/wakaba-oto/"
             style={{
               textDecoration: "underline",
-              color: "#ffec3d",
+              color: "#ffd500",
               fontWeight: "bold",
             }}
           >
