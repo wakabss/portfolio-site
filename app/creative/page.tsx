@@ -59,7 +59,7 @@ export default function CreativePage() {
               <img src="/tattoo.jpg" alt="Tattoo-Friendly Onsen" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Tattoo Friendly Onsen</div>
-            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 242K+ views</span></div>
+            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 245K+ views</span></div>
           </a>
 
           <a href="https://www.instagram.com/p/DZcovDsjqIY/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
@@ -67,7 +67,7 @@ export default function CreativePage() {
               <img src="/lovehotels.jpg" alt="Tokyo's Love Hotels and the Death of Camp" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Love Hotels and the Death of Camp</div>
-            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 220K+ views</span></div>
+            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 300K+ views</span></div>
           </a>
 
           <a href="https://www.instagram.com/p/DUdgwHME_Vz/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
@@ -75,7 +75,7 @@ export default function CreativePage() {
               <img src="/zinchikurandan.jpg" alt="Zinchikurandan" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Zinchikurandan</div>
-            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 174K+ views</span></div>
+            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 175K+ views</span></div>
           </a>
 
           <a href="https://www.instagram.com/p/DZsCHpujuFI/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
@@ -83,7 +83,7 @@ export default function CreativePage() {
               <img src="/galismind.jpg" alt="Gal is Mind" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
             <div style={{ fontSize: "0.85rem" }}>Gal is Mind</div>
-            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 81K+ views</span></div>
+            <div style={{ fontSize: "0.8rem", color: "#555" }}>Tokyo Misfits <span style={{ color: "#999" }}>· 120K+ views</span></div>
           </a>
 
         </div>
