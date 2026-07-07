@@ -90,8 +90,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-
-           A lot of my work focuses on covering Japanese subculture from the inside — love hotels, tattoo parlors, creative scenes, and other corners of life I know firsthand — and the outdoors.
+           A lot of my work focuses on culture, subculture, and the outdoors. 
         </p>
 
         <p>
