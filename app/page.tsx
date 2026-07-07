@@ -91,7 +91,7 @@ export default function AboutPage() {
 
         <p>
 
-           A lot of my work covers Japanese subculture from the inside — love hotels, tattoo parlors, creative scenes — and the outdoors. I also write about politics and the people and places that tend to fall outside the frame of conventional reporting on both sides of the Pacific.
+           A lot of my work focuses on covering Japanese subculture from the inside — love hotels, tattoo parlors, creative scenes — and the outdoors. I also write about politics and the people and places that tend to fall outside the frame of conventional reporting on both sides of the Pacific.
         </p>
 
         <p>
