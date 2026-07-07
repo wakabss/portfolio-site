@@ -166,7 +166,7 @@ export default function AboutPage() {
           {" "}
           <a
             href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
-            style={{ textDecoration: "underline", color: "limegreen" }}
+            style={{ textDecoration: "underline", color: "#7AE2CF" }}
           >
             how authoritarian leaders weaponize satire
           </a> against women's rights.
