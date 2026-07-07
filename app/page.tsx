@@ -156,27 +156,20 @@ export default function AboutPage() {
           >
             column
           </a>{" "}
-          on global feminist movements and reported on issues like{" "}
+          on global feminist movements and reported on issues ranging from{" "}
           <a
-            href="https://msmagazine.com/2024/05/30/sexts-leaked-online-harassment-women/"
+            href="https://msmagazine.com/2024/02/15/over-the-counter-birth-control-cost/"
             style={{ textDecoration: "underline", color: "#ffe150" }}
           >
-            nonconsensual photography
-          </a> in Japan,
+            reproductive rights
+          </a> to
           {" "}
           <a
             href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
             style={{ textDecoration: "underline", color: "limegreen" }}
           >
-            “jokes” shaping policy
-          </a> across the world, and
-          {" "}
-          <a
-            href="https://msmagazine.com/2025/04/15/usa-international-student-visa-revoked-trump-protest-deported/"
-            style={{ textDecoration: "underline", color: "#7AE2CF" }}
-          >
-            student visa revocations
-          </a> in the U.S.
+            how authoritarian leaders weaponize satire
+          </a> against women's rights.
         </p>
 
       <p>
