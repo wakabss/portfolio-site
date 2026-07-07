@@ -156,13 +156,13 @@ export default function AboutPage() {
           >
             column
           </a>{" "}
-          on global feminist movements and reported on issues ranging from{" "}
+          on global feminist movements and reported on issues like{" "}
           <a
             href="https://msmagazine.com/2024/02/15/over-the-counter-birth-control-cost/"
             style={{ textDecoration: "underline", color: "#ffe150" }}
           >
             reproductive rights
-          </a> to
+          </a> and
           {" "}
           <a
             href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
