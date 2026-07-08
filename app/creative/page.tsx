@@ -1,7 +1,7 @@
 export default function CreativePage() {
   return (
     <>
-      <h1>creative and social</h1>
+      <h1>creative & social</h1>
 
       {/* ── Essays ── */}
       <div style={{ fontSize: '1rem', lineHeight: 1.6 }}>
