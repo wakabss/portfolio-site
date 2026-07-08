@@ -24,20 +24,6 @@ export default function ReportedPage() {
           </li>
         </ul>
 
-        <p style={{ color: "#999", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "1rem" }}>politics</p>
-        <ul style={{ listStyle: "none", paddingLeft: 0, marginBottom: "2.5rem" }}>
-          <li style={{ marginBottom: "0.75rem" }}>
-            <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/sanseito-explained-japans-far-right-movement/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
-              Sanseito, Explained: The Alarming Rise of Japan's Far-Right Movement <span style={{ color: "#999" }}>— Tokyo Weekender</span>
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.75rem" }}>
-            <a href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
-              Japan's Far-Right 'Jokes' About Forced Hysterectomies as Trump's Authoritarian Playbook Goes Global <span style={{ color: "#999" }}>— Ms. magazine</span>
-            </a>
-          </li>
-        </ul>
-
         <p style={{ color: "#999", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "1rem" }}>travel</p>
         <ul style={{ listStyle: "none", paddingLeft: 0, marginBottom: "2.5rem" }}>
           <li style={{ marginBottom: "0.75rem" }}>
@@ -58,6 +44,20 @@ export default function ReportedPage() {
           <li style={{ marginBottom: "0.75rem" }}>
             <a href="https://www.tokyoweekender.com/travel/sado-island-japan/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
               Sado Island: Japan's Most Mysterious Island Escape <span style={{ color: "#999" }}>— Tokyo Weekender</span>
+            </a>
+          </li>
+        </ul>
+
+        <p style={{ color: "#999", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "1rem" }}>politics</p>
+        <ul style={{ listStyle: "none", paddingLeft: 0, marginBottom: "2.5rem" }}>
+          <li style={{ marginBottom: "0.75rem" }}>
+            <a href="https://www.tokyoweekender.com/japan-life/news-and-opinion/sanseito-explained-japans-far-right-movement/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
+              Sanseito, Explained: The Alarming Rise of Japan's Far-Right Movement <span style={{ color: "#999" }}>— Tokyo Weekender</span>
+            </a>
+          </li>
+          <li style={{ marginBottom: "0.75rem" }}>
+            <a href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
+              Japan's Far-Right 'Jokes' About Forced Hysterectomies as Trump's Authoritarian Playbook Goes Global <span style={{ color: "#999" }}>— Ms. magazine</span>
             </a>
           </li>
         </ul>
