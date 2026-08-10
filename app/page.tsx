@@ -86,7 +86,7 @@ export default function AboutPage() {
     color: "inherit",
   }}
 >
-</a> Right now, I'm the travel editor at Tokyo Weekender. 
+</a> Right now, I'm the travel editor at <em>Tokyo Weekender</em>. 
           
         </p>
 
