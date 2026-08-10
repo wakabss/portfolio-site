@@ -86,7 +86,8 @@ export default function AboutPage() {
     color: "inherit",
   }}
 >
-</a>
+</a> Right now, I'm the travel editor at Tokyo Weekender. 
+          
         </p>
 
         <p>
