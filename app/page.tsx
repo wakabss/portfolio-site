@@ -166,16 +166,17 @@ export default function AboutPage() {
 </p>
 
         <p>
-          I do travel writing too, which is a fancy way of
-          saying I'll go anywhere. I've flown to Morocco to meet a stranger for a first date,
-          gone undercover as a hostess in Tokyo's red-light district, and completed a seven-day trek to{" "}
+          I do freelance travel writing too, which is a fancy way of
+          saying I'll go anywhere for a story. I've flown to Morocco to meet a stranger for a first date,
+          gone undercover as a hostess in Tokyo's red-light district, and
+          trekked {" "}
           <a
             href="https://matadornetwork.com/read/salkantay-trek-peru/"
             style={{ textDecoration: "underline", color: "mediumseagreen" }}
           >
-            Machu Picchu
-          </a>{" "}
-          — all in the name of a good story.
+            Salkantay to Machu Picchu 
+          </a>
+          entirely untrained.
         </p>
 
 
