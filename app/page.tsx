@@ -177,6 +177,7 @@ export default function AboutPage() {
           >
             Salkantay to Machu Picchu 
           </a>
+          {" "}
           entirely untrained.
         </p>
 
