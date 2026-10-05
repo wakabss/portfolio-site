@@ -11,7 +11,7 @@ export default function ContactPage() {
     >
       <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>contact</h1>
       <p style={{ fontSize: '1rem', lineHeight: 1.8, marginBottom: '2rem' }}>
-        For pitches, press invitations, commissions, or any interesting proposals.
+        For pitches, press invitations, commissions or any interesting proposals.
       </p>
       <div style={{ fontSize: '1rem', lineHeight: 1.6 }}>
         <p style={{ color: "#999", fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.4rem" }}>email</p>
