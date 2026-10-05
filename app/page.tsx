@@ -97,14 +97,7 @@ export default function AboutPage() {
             style={{ textDecoration: "underline", color: "#06b178" }}
           >
             mountain huts
-          </a> 
-          ,{" "}
-          <a
-            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/"
-            style={{ textDecoration: "underline", color: "#74b9ff" }}
-          >
-            rogue tourists
-          </a>
+          </a>      
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/how-tokyos-host-clubs-drive-clients-into-sex-work/"
@@ -112,14 +105,7 @@ export default function AboutPage() {
           >
             sex work
           </a>
-          ,{" "}
-          <a
-            href="https://www.tokyoweekender.com/japan-life/news-and-opinion/logan-paul-wants-to-be-welcomed-back-to-japan/"
-            style={{ textDecoration: "underline", color: "#ffe150" }}
-          >
-            Logan Paul
-          </a>
-          , and{" "}
+          {" "} and{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/graffiti-at-yasukuni-shrine-reignites-tensions/"
             style={{ textDecoration: "underline", color: "#93e5ab" }}
