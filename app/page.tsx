@@ -142,15 +142,15 @@ export default function AboutPage() {
             href="https://msmagazine.com/2024/02/15/over-the-counter-birth-control-cost/"
             style={{ textDecoration: "underline", color: "#ffe150" }}
           >
-            reproductive rights
+            birth control access
           </a> and
           {" "}
           <a
             href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
             style={{ textDecoration: "underline", color: "#7AE2CF" }}
           >
-            how authoritarian leaders weaponize satire
-          </a> against women's rights.
+            the politics of misogyny.
+          </a> 
         </p>
 
       <p>
