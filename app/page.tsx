@@ -21,8 +21,18 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a journalist and editor based in Tokyo and New York City. I write about culture, subculture, travel, the outdoors and whatever else I find interesting.
-          My work has appeared in{" "}
+          I'm a journalist and editor based in Tokyo and New York City, currently serving as travel editor at Tokyo Weekender. Before that, I founded and led the web magazine at
+          {" "}
+    <a
+  href="https://www.tokyomisfits.com/"
+  style={{
+    textDecoration: "underline",
+    color: "#c77dff",
+    fontWeight: "bold",
+  }}
+>
+  Tokyo Misfits. My work has appeared in 
+    </a>
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
             style={{
@@ -66,27 +76,7 @@ export default function AboutPage() {
           >
             <em>Ms. magazine</em>
           </a>
-          , and more.{" "}
-<a
-  href="https://www.instagram.com/tkymisfits/"
-  style={{
-    textDecoration: "none",
-    color: "inherit",
-  }}
->
-</a> Right now, I'm the travel editor at <em>Tokyo Weekender</em>;
-          previously, I founded and led the web magazine behind{" "}
-<a
-  href="https://www.tokyomisfits.com/"
-  style={{
-    textDecoration: "underline",
-    color: "#c77dff",
-    fontWeight: "bold",
-  }}
->
-  Tokyo Misfits
-</a>
-          
+          , and elsewhere. I write mostly about culture, subculture, travel and the outdoors.
         </p>
 
         <p>
