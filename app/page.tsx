@@ -21,7 +21,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a journalist and editor based in Tokyo and New York City, currently serving as travel editor at Tokyo Weekender. Before that, I founded and led the web magazine at
+          I'm a journalist and editor based in Tokyo and New York City, currently serving as travel editor at <em>Tokyo Weekender</em>. Before that, I founded and led the web magazine at
           {" "}
     <a
   href="https://www.tokyomisfits.com/"
@@ -31,8 +31,10 @@ export default function AboutPage() {
     fontWeight: "bold",
   }}
 >
-  Tokyo Misfits. My work has appeared in 
+  Tokyo Misfits.
     </a>
+          My work has appeared in
+          {" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
             style={{
