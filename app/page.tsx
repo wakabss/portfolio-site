@@ -189,7 +189,7 @@ export default function AboutPage() {
           >
             Machu Picchu
           </a>{" "}
-          without any prior training — all in the name of a good story.
+          — all in the name of a good story.
         </p>
 
 
