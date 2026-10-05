@@ -149,8 +149,9 @@ export default function AboutPage() {
             href="https://msmagazine.com/2024/11/18/japan-conservative-birthrate-women-fiction-hysterectomy/"
             style={{ textDecoration: "underline", color: "#7AE2CF" }}
           >
-            the politics of misogyny.
+            the politics of misogyny
           </a> 
+          .
         </p>
 
       <p>
