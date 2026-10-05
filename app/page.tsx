@@ -66,8 +66,7 @@ export default function AboutPage() {
           >
             <em>Ms. magazine</em>
           </a>
-          , and more. 
-. {" "}
+          , and more.{" "}
 <a
   href="https://www.instagram.com/tkymisfits/"
   style={{
