@@ -168,7 +168,7 @@ export default function AboutPage() {
         </p>
 
       <p>
-  I also lkke to write essays and fiction. Recent work has appeared in{" "}
+  I also like to write essays and fiction. Recent work has appeared in{" "}
   <a href="https://sonorareview.com/2026/05/22/in-the-space-between-ferries-wakaba-oto/" style={{ textDecoration: "underline", color: "#74b9ff", fontWeight: "bold" }}>
     <em>Sonora Review</em>
   </a>{" "}
