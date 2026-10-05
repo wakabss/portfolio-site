@@ -21,8 +21,8 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a journalist and editor based in Tokyo and New York City.
-          I've written for{" "}
+          I'm a journalist and editor based in Tokyo and New York City. I write about culture, subculture, travel, the outdoors and whatever else I get curious about.
+          My work has appeared in{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
             style={{
@@ -76,7 +76,7 @@ export default function AboutPage() {
   }}
 >
 </a> Right now, I'm the travel editor at <em>Tokyo Weekender</em>;
-          previously, I also founded and led the web magazine behind{" "}
+          previously, I founded and led the web magazine behind{" "}
 <a
   href="https://www.tokyomisfits.com/"
   style={{
@@ -88,10 +88,6 @@ export default function AboutPage() {
   Tokyo Misfits
 </a>
           
-        </p>
-
-        <p>
-           A lot of my work focuses on culture, subculture, and the outdoors. 
         </p>
 
         <p>
@@ -173,7 +169,7 @@ export default function AboutPage() {
         </p>
 
       <p>
-  In addition to reporting, I write essays and fiction for literary magazines. Recent work has appeared in{" "}
+  I also lkke to write essays and fiction. Recent work has appeared in{" "}
   <a href="https://sonorareview.com/2026/05/22/in-the-space-between-ferries-wakaba-oto/" style={{ textDecoration: "underline", color: "#74b9ff", fontWeight: "bold" }}>
     <em>Sonora Review</em>
   </a>{" "}
@@ -185,7 +181,7 @@ export default function AboutPage() {
 </p>
 
         <p>
-          I also do freelance travel writing, which is just a fancy way of
+          I do travel writing too, which is a fancy way of
           saying I'll go anywhere. I've flown to Morocco to meet a stranger for a first date,
           gone undercover as a hostess in Tokyo's red-light district, and completed a seven-day trek to{" "}
           <a
