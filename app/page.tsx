@@ -93,8 +93,15 @@ export default function AboutPage() {
           </a>
           ,{" "}
           <a
+            href="https://www.tokyoweekender.com/art_and_culture/shuzo-hamachi-bonsai-scapes/"
+            style={{ textDecoration: "underline", color: "#7AE2CF" }}
+          >
+            bonsai masters
+          </a>
+          ,{" "}
+          <a
             href="https://www.tokyoweekender.com/travel/japan-mountain-huts-hiking-japanese-alps/"
-            style={{ textDecoration: "underline", color: "#06b178" }}
+            style={{ textDecoration: "underline", color: "#93e5ab" }}
           >
             mountain huts
           </a>      
@@ -108,7 +115,7 @@ export default function AboutPage() {
           {" "} and{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/graffiti-at-yasukuni-shrine-reignites-tensions/"
-            style={{ textDecoration: "underline", color: "#93e5ab" }}
+            style={{ textDecoration: "underline", color: "#74b9ff" }}
           >
             wartime politics
           </a>
