@@ -32,6 +32,7 @@ export default function AboutPage() {
   }}
 >
   Tokyo Misfits.
+      {" "}
     </a>
           My work has appeared in
           {" "}
