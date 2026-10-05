@@ -32,8 +32,8 @@ export default function AboutPage() {
   }}
 >
   Tokyo Misfits.
-      {" "}
     </a>
+                {" "}
           My work has appeared in
           {" "}
           <a
@@ -79,7 +79,7 @@ export default function AboutPage() {
           >
             <em>Ms. magazine</em>
           </a>
-          , and elsewhere. I write mostly about culture, subculture, travel and the outdoors.
+           and elsewhere. I write mostly about culture, subculture, travel and the outdoors.
         </p>
 
         <p>
@@ -97,14 +97,7 @@ export default function AboutPage() {
             style={{ textDecoration: "underline", color: "#06b178" }}
           >
             mountain huts
-          </a>
-          ,{" "}
-          <a
-            href="https://www.tokyoweekender.com/travel/sado-island-japan/"
-            style={{ textDecoration: "underline", color: "#7AE2CF" }}
-          >
-            hidden islands
-          </a>
+          </a> 
           ,{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/nuisance-youtuber-elected-to-european-parliament/"
