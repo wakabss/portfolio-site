@@ -122,7 +122,7 @@ export default function AboutPage() {
           , and{" "}
           <a
             href="https://www.tokyoweekender.com/japan-life/news-and-opinion/graffiti-at-yasukuni-shrine-reignites-tensions/"
-            style={{ textDecoration: "underline", color: "#c77dff" }}
+            style={{ textDecoration: "underline", color: "#93e5ab" }}
           >
             wartime politics
           </a>
