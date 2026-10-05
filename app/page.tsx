@@ -21,7 +21,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a writer and editor based in Tokyo and New York City.
+          I'm a journalist and editor based in Tokyo and New York City.
           I've written for{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
@@ -67,7 +67,16 @@ export default function AboutPage() {
             <em>Ms. magazine</em>
           </a>
           , and more. 
-          I also founded the web magazine behind{" "}
+. {" "}
+<a
+  href="https://www.instagram.com/tkymisfits/"
+  style={{
+    textDecoration: "none",
+    color: "inherit",
+  }}
+>
+</a> Right now, I'm the travel editor at <em>Tokyo Weekender</em>;
+          previously, I also founded and led the web magazine behind{" "}
 <a
   href="https://www.tokyomisfits.com/"
   style={{
@@ -78,15 +87,6 @@ export default function AboutPage() {
 >
   Tokyo Misfits
 </a>
-. {" "}
-<a
-  href="https://www.instagram.com/tkymisfits/"
-  style={{
-    textDecoration: "none",
-    color: "inherit",
-  }}
->
-</a> Right now, I'm the travel editor at <em>Tokyo Weekender</em>. 
           
         </p>
 
