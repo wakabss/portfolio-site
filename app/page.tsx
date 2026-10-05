@@ -78,7 +78,7 @@ export default function AboutPage() {
             }}
           >
             <em>Ms. magazine</em>
-          </a>
+          </a> {" "}
            and elsewhere. I write mostly about culture, subculture, travel and the outdoors.
         </p>
 
