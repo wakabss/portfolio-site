@@ -21,7 +21,7 @@ export default function AboutPage() {
         }}
       >
         <p>
-          I'm a journalist and editor based in Tokyo and New York City. I write about culture, subculture, travel, the outdoors and whatever else I get curious about.
+          I'm a journalist and editor based in Tokyo and New York City. I write about culture, subculture, travel, the outdoors and whatever else I find interesting.
           My work has appeared in{" "}
           <a
             href="https://www.tokyoweekender.com/author/wakaba/"
