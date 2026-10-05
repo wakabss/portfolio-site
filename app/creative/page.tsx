@@ -17,7 +17,7 @@ export default function CreativePage() {
               In the Space Between Ferries
             </a>
             <div style={{ fontSize: "0.9rem", color: "#555", marginTop: "0.3rem" }}>
-          Personal essay, love story, existential travelogue set in the Philippines. Sonora Review, 2026.          
+          Personal essay and messy love story set in the Philippines. Sonora Review, 2026.          
             </div>
           </li>
           <li style={{ marginBottom: "1.5rem" }}>
