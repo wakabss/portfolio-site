@@ -162,7 +162,7 @@ export default function AboutPage() {
         <p>
           I do freelance travel writing too, which is a fancy way of
           saying I'll go anywhere for a story. I've flown to Morocco to meet a stranger for a first date,
-          gone undercover as a hostess in Tokyo's red-light district, and
+          gone undercover as a hostess in Tokyo's red-light district and
           trekked {" "}
           <a
             href="https://matadornetwork.com/read/salkantay-trek-peru/"
